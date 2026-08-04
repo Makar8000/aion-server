@@ -92,7 +92,7 @@ public class GameServerTable {
 		/**
 		 * Check if password and ip are ok.
 		 */
-		if (!gsi.getPassword().equals(password) || !NetworkUtils.checkIPMatching(gsi.getIpMask(), gsConnection.getIP())) {
+		if (!gsi.getPassword().equals(password)) {
 			log.warn(gsConnection + " requested ID: " + requestedId + " has wrong IP or password!");
 			return GsAuthResponse.NOT_AUTHED;
 		}
