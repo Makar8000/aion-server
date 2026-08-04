@@ -6,12 +6,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.aionemu.gameserver.configs.main.CustomConfig;
+import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.EmotionType;
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.animations.TeleportAnimation;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.Rates;
 import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
+import com.aionemu.gameserver.model.templates.itemset.ItemPart;
+import com.aionemu.gameserver.model.templates.itemset.ItemSetTemplate;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_ASCENSION_MORPH;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
@@ -21,6 +25,7 @@ import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
 import com.aionemu.gameserver.services.ClassChangeService;
 import com.aionemu.gameserver.services.instance.InstanceService;
+import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.services.reward.WebRewardService;
 import com.aionemu.gameserver.services.teleport.TeleportService;
 import com.aionemu.gameserver.skillengine.SkillEngine;
@@ -102,9 +107,13 @@ public class _2008Ascension extends AbstractQuestHandler {
 			if (targetId == 203550) {
 				switch (env.getDialogActionId()) {
 					case QUEST_SELECT:
-						if (var == 0)
-							return sendQuestDialog(env, 1011);
-						else if (var == 4)
+						if (var == 0) {
+							qs.setQuestVar(6);
+							updateQuestStatus(env);
+							int diagPageId = ClassChangeService.getClassSelectionDialogPageId(player.getRace(), player.getPlayerClass());
+							if (diagPageId != 0)
+								return sendQuestDialog(env, diagPageId);
+						} else if (var == 4)
 							return sendQuestDialog(env, 2375);
 						else if (var == 6)
 							return sendQuestDialog(env, 2716);
@@ -275,7 +284,157 @@ public class _2008Ascension extends AbstractQuestHandler {
 	}
 
 	private boolean setPlayerClass(QuestEnv env, QuestState qs, PlayerClass playerClass) {
-		if (ClassChangeService.setClass(env.getPlayer(), playerClass)) {
+		Player player = env.getPlayer();
+		if (ClassChangeService.setClass(player, playerClass)) {
+			// Add class-specific sets
+			List<ItemSetTemplate> itemSets = new ArrayList<>();
+			if (playerClass == PlayerClass.GLADIATOR) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(286)); // Siel's Forgotten Plate Set
+				ItemService.addItem(player, 101301042, 2); // Shedim Herald's Spear
+				ItemService.addItem(player, 100201251, 1); // Shedim Herald's Stiletto
+				ItemService.addItem(player, 100001412, 1); // Shedim Herald's Sword
+				ItemService.addItem(player, 101701134, 2); // Shedim Herald's Longbow
+				ItemService.addItem(player, 125002585, 1); // Noble Tac Officer's Helm
+				ItemService.addItem(player, 120001247, 2); // Kahrun's Corundum Earrings
+				ItemService.addItem(player, 121001163, 1); // Kahrun's Corundum Necklace
+				ItemService.addItem(player, 122001406, 2); // Kahrun's Corundum Ring
+				ItemService.addItem(player, 123001221, 1); // Kahrun's Leather Belt
+				ItemService.addItem(player, 187060084, 1); // Dramata's Wing
+				ItemService.addItem(player, 166050137, 999); // Honorable Elim's Idian: Physical Attack
+				ItemService.addItem(player, 166050090, 999); // Triumphal Idian: Physical Attack
+			} else if (playerClass == PlayerClass.TEMPLAR) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(286)); // Siel's Forgotten Plate Set
+				ItemService.addItem(player, 100901105, 2); // Shedim Herald's Greatsword
+				ItemService.addItem(player, 100001412, 1); // Shedim Herald's Sword
+				ItemService.addItem(player, 115001462, 1); // Shedim Herald's Shield
+				ItemService.addItem(player, 125002585, 1); // Noble Tac Officer's Helm
+				ItemService.addItem(player, 120001247, 2); // Kahrun's Corundum Earrings
+				ItemService.addItem(player, 121001163, 1); // Kahrun's Corundum Necklacez
+				ItemService.addItem(player, 122001406, 2); // Kahrun's Corundum Ring
+				ItemService.addItem(player, 123001221, 1); // Kahrun's Leather Belt
+				ItemService.addItem(player, 187060084, 1); // Dramata's Wing
+				ItemService.addItem(player, 166050137, 999); // Honorable Elim's Idian: Physical Attack
+				ItemService.addItem(player, 166050090, 999); // Triumphal Idian: Physical Attack
+			} else if (playerClass == PlayerClass.ASSASSIN) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(220)); // Primal Spirit Leather Set
+				ItemService.addItem(player, 100201251, 1); // Shedim Herald's Stiletto
+				ItemService.addItem(player, 100001412, 1); // Shedim Herald's Sword
+				ItemService.addItem(player, 101701134, 2); // Shedim Herald's Longbow
+				ItemService.addItem(player, 125002585, 1); // Noble Tac Officer's Helm
+				ItemService.addItem(player, 120001247, 2); // Kahrun's Corundum Earrings
+				ItemService.addItem(player, 121001163, 1); // Kahrun's Corundum Necklace
+				ItemService.addItem(player, 122001406, 2); // Kahrun's Corundum Ring
+				ItemService.addItem(player, 123001221, 1); // Kahrun's Leather Belt
+				ItemService.addItem(player, 187060084, 1); // Dramata's Wing
+				ItemService.addItem(player, 166050137, 999); // Honorable Elim's Idian: Physical Attack
+				ItemService.addItem(player, 166050090, 999); // Triumphal Idian: Physical Attack
+			} else if (playerClass == PlayerClass.RANGER) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(220)); // Primal Spirit Leather Set
+				ItemService.addItem(player, 101701134, 2); // Shedim Herald's Longbow
+				ItemService.addItem(player, 100201251, 2); // Shedim Herald's Stiletto
+				ItemService.addItem(player, 125002585, 1); // Noble Tac Officer's Helm
+				ItemService.addItem(player, 120001247, 2); // Kahrun's Corundum Earrings
+				ItemService.addItem(player, 121001163, 1); // Kahrun's Corundum Necklace
+				ItemService.addItem(player, 122001406, 2); // Kahrun's Corundum Ring
+				ItemService.addItem(player, 123001221, 1); // Kahrun's Leather Belt
+				ItemService.addItem(player, 187060084, 1); // Dramata's Wing
+				ItemService.addItem(player, 166050137, 999); // Honorable Elim's Idian: Physical Attack
+				ItemService.addItem(player, 166050090, 999); // Triumphal Idian: Physical Attack
+			} else if (playerClass == PlayerClass.SORCERER) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(283)); // Siel's Forgotten Cloth Set
+				ItemService.addItem(player, 100501097, 3); // Shedim Herald's Jewel
+				ItemService.addItem(player, 100501066, 1); // Moltenus' Orb
+				ItemService.addItem(player, 125002920, 1); // Kahrun's Headband
+				ItemService.addItem(player, 120001248, 2); // Kahrun's Turquoise Earrings
+				ItemService.addItem(player, 121001164, 1); // Kahrun's Turquoise Necklace
+				ItemService.addItem(player, 122001407, 2); // Kahrun's Turquoise Ring
+				ItemService.addItem(player, 123001222, 1); // Kahrun's Sash
+				ItemService.addItem(player, 187060085, 1); // Dramata's Bone Wing
+				ItemService.addItem(player, 166050138, 999); // Honorable Elim's Idian: Magical Attack
+				ItemService.addItem(player, 166050091, 999); // Triumphal Idian: Magical Attack
+			} else if (playerClass == PlayerClass.SPIRIT_MASTER) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(283)); // Siel's Forgotten Cloth Set
+				ItemService.addItem(player, 100501097, 3); // Shedim Herald's Jewel
+				ItemService.addItem(player, 100501066, 1); // Moltenus' Orb
+				ItemService.addItem(player, 125002920, 1); // Kahrun's Headband
+				ItemService.addItem(player, 120001248, 2); // Kahrun's Turquoise Earrings
+				ItemService.addItem(player, 121001164, 1); // Kahrun's Turquoise Necklace
+				ItemService.addItem(player, 122001407, 2); // Kahrun's Turquoise Ring
+				ItemService.addItem(player, 123001222, 1); // Kahrun's Sash
+				ItemService.addItem(player, 187060085, 1); // Dramata's Bone Wing
+				ItemService.addItem(player, 166050138, 999); // Honorable Elim's Idian: Magical Attack
+				ItemService.addItem(player, 166050091, 999); // Triumphal Idian: Magical Attack
+			} else if (playerClass == PlayerClass.CLERIC) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(285)); // Siel's Forgotten Chain Set
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(283)); // Siel's Forgotten Cloth Set
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(265)); // Kahrun's Chain Set
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(261)); // Kahrun's Mace Set
+				ItemService.addItem(player, 101500998, 1); // Kahrun's Peace Staff
+				ItemService.addItem(player, 101500959, 1); // Noble Sky Dragon Emperor's Durable Staff
+				ItemService.addItem(player, 125002922, 1); // Kahrun's Chain Hood
+				ItemService.addItem(player, 120001248, 2); // Kahrun's Turquoise Earrings
+				ItemService.addItem(player, 121001164, 1); // Kahrun's Turquoise Necklace
+				ItemService.addItem(player, 122001407, 2); // Kahrun's Turquoise Ring
+				ItemService.addItem(player, 123001222, 1); // Kahrun's Sash
+				ItemService.addItem(player, 187060085, 1); // Dramata's Bone Wing
+				ItemService.addItem(player, 166050138, 999); // Honorable Elim's Idian: Magical Attack
+				ItemService.addItem(player, 166050091, 999); // Triumphal Idian: Magical Attack
+			} else if (playerClass == PlayerClass.CHANTER) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(221)); // Primal Spirit Chain Set
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(265)); // Kahrun's Chain Set
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(261)); // Kahrun's Mace Set
+				ItemService.addItem(player, 101501123, 2); // Shedim Herald's Cane
+				ItemService.addItem(player, 125002922, 1); // Kahrun's Chain Hood
+				ItemService.addItem(player, 120001247, 2); // Kahrun's Corundum Earrings
+				ItemService.addItem(player, 121001163, 1); // Kahrun's Corundum Necklace
+				ItemService.addItem(player, 122001406, 2); // Kahrun's Corundum Ring
+				ItemService.addItem(player, 123001221, 1); // Kahrun's Leather Belt
+				ItemService.addItem(player, 187060084, 1); // Dramata's Wing
+				ItemService.addItem(player, 166050137, 999); // Honorable Elim's Idian: Physical Attack
+				ItemService.addItem(player, 166050090, 999); // Triumphal Idian: Physical Attack
+			} else if (playerClass == PlayerClass.RIDER) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(399)); // Siel's Forgotten Magic Chain Set
+				ItemService.addItem(player, 102100742, 1); // Dragon Lord's Passage
+				ItemService.addItem(player, 102100949, 1); // Elite Guardian Commander's Cipher-Blade
+				ItemService.addItem(player, 125002922, 1); // Kahrun's Chain Hood
+				ItemService.addItem(player, 120001248, 2); // Kahrun's Turquoise Earrings
+				ItemService.addItem(player, 121001164, 1); // Kahrun's Turquoise Necklace
+				ItemService.addItem(player, 122001407, 2); // Kahrun's Turquoise Ring
+				ItemService.addItem(player, 123001222, 1); // Kahrun's Sash
+				ItemService.addItem(player, 187060085, 1); // Dramata's Bone Wing
+				ItemService.addItem(player, 166050138, 999); // Honorable Elim's Idian: Magical Attack
+				ItemService.addItem(player, 166050091, 999); // Triumphal Idian: Magical Attack
+			} else if (playerClass == PlayerClass.GUNNER) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(381)); // Siel's Forgotten Leather Set
+				ItemService.addItem(player, 101800850, 2); // Dragon Lord's Resolve
+				ItemService.addItem(player, 101900848, 2); // Dragon Lord's Courage
+				ItemService.addItem(player, 125003548, 1); // Kahrun's Hat
+				ItemService.addItem(player, 120001248, 2); // Kahrun's Turquoise Earrings
+				ItemService.addItem(player, 121001164, 1); // Kahrun's Turquoise Necklace
+				ItemService.addItem(player, 122001407, 2); // Kahrun's Turquoise Ring
+				ItemService.addItem(player, 123001222, 1); // Kahrun's Sash
+				ItemService.addItem(player, 187060085, 1); // Dramata's Bone Wing
+				ItemService.addItem(player, 166050138, 999); // Honorable Elim's Idian: Magical Attack
+				ItemService.addItem(player, 166050091, 999); // Triumphal Idian: Magical Attack
+			} else if (playerClass == PlayerClass.BARD) {
+				itemSets.add(DataManager.ITEM_SET_DATA.getItemSetTemplate(283)); // Siel's Forgotten Cloth Set
+				ItemService.addItem(player, 102000882, 2); // Dragon Lord's Passion
+				ItemService.addItem(player, 125002920, 1); // Kahrun's Headband
+				ItemService.addItem(player, 120001248, 2); // Kahrun's Turquoise Earrings
+				ItemService.addItem(player, 121001164, 1); // Kahrun's Turquoise Necklace
+				ItemService.addItem(player, 122001407, 2); // Kahrun's Turquoise Ring
+				ItemService.addItem(player, 123001222, 1); // Kahrun's Sash
+				ItemService.addItem(player, 187060085, 1); // Dramata's Bone Wing
+				ItemService.addItem(player, 166050138, 999); // Honorable Elim's Idian: Magical Attack
+				ItemService.addItem(player, 166050091, 999); // Triumphal Idian: Magical Attack
+			}
+
+			for (ItemSetTemplate itemSet : itemSets) {
+				for (ItemPart setPart : itemSet.getItempart()) {
+					ItemService.addItem(player, setPart.getItemId(), 1);
+				}
+			}
+
 			changeQuestStep(env, 6, 6, true); // reward
 			return sendQuestDialog(env, 5);
 		}
@@ -301,6 +460,8 @@ public class _2008Ascension extends AbstractQuestHandler {
 			player.getCommonData().updateDaeva();
 			if (WebRewardService.MaxLevelReward.isPendingAscension(player))
 				WebRewardService.MaxLevelReward.reward(player);
+			// Max level
+			player.getCommonData().addExp(999999999, Rates.XP_QUEST);
 		}
 	}
 }
