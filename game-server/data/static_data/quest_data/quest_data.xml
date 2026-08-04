@@ -9218,7 +9218,7 @@
 		</start_conditions>
 	</quest>
 	<quest id="2000" name="Prologue" nameId="1103100" quest_zone="Ishalgen" minlevel_permitted="1" max_repeat_count="1" cannot_share="true" cannot_giveup="true" race_permitted="ASMODIANS" category="QUEST">
-		<rewards exp="1"/>
+		<rewards exp="999999999"/>
 	</quest>
 	<quest id="2001" name="Thinking Ahead" nameId="1103101" quest_zone="Ishalgen" minlevel_permitted="3" max_repeat_count="1" cannot_share="true" cannot_giveup="true" race_permitted="ASMODIANS" category="MISSION">
 		<collect_items>
@@ -17323,24 +17323,7 @@
 		<quest_kill step="0" var="0" count="10" npc_ids="279968 279965 279960 279971 251110 251107 251102 251113 279973 251115" seq="0"/>
 	</quest>
 	<quest id="2900" name="No Escaping Destiny" nameId="1104100" quest_zone="Pandaemonium" minlevel_permitted="20" max_repeat_count="1" cannot_share="true" cannot_giveup="true" race_permitted="ASMODIANS" category="MISSION">
-		<rewards gold="25000" exp="228880" extend_stigma="1">
-			<reward_item item_id="162000004" count="10"/>
-			<reward_item item_id="162000009" count="10"/>
-			<reward_item item_id="188053787"/>
-			<!-- Custom -->
-			<reward_item item_id="162001057" count="5"/>
-		</rewards>
-		<fighter_selectable_reward item_id="140000008" count="1"/>
-		<knight_selectable_reward item_id="140000027" count="1"/>
-		<ranger_selectable_reward item_id="140000047" count="1"/>
-		<assassin_selectable_reward item_id="140000076" count="1"/>
-		<wizard_selectable_reward item_id="140000131" count="1"/>
-		<elementalist_selectable_reward item_id="140000147" count="1"/>
-		<priest_selectable_reward item_id="140000098" count="1"/>
-		<chanter_selectable_reward item_id="140000112" count="1"/>
-		<bard_selectable_reward item_id="140000859"/>
-		<gunner_selectable_reward item_id="140000943"/>
-		<rider_selectable_reward item_id="140001002"/>
+		<rewards gold="25000" exp="228880" extend_stigma="1" />
 	</quest>
 	<quest id="2901" name="Dispatch to Altgard" nameId="1104101" quest_zone="Pandaemonium" minlevel_permitted="10" max_repeat_count="1" cannot_share="true" cannot_giveup="true" race_permitted="ASMODIANS" category="IMPORTANT">
 		<rewards exp="11237">
