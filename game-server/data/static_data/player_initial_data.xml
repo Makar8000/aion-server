@@ -1,113 +1,605 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <player_initial_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="player_initial_data.xsd">
-	<asmodian_spawn_location map_id="220010000" heading="32" x="571.0388" y="2787.3420" z="299.8750"/>
+	<asmodian_spawn_location map_id="220010000" heading="58" x="383.121" y="1894.78" z="327.625"/>
 	<elyos_spawn_location map_id="210010000" heading="32" x="1212.9423" y="1044.8516" z="140.75568"/>
 	<player_data class="WARRIOR">
 		<items>
-			<item id="182400001" count="1000"/>
-			<item id="100000094" count="1"/>
-			<item id="110500003" count="1"/>
-			<item id="113500001" count="1"/>
-			<item id="160000001" count="12"/>
-			<item id="169300002" count="20"/>
-			<item id="162000002" count="100"/>
-			<item id="162000007" count="100"/>
-			<!-- Custom bonus items -->
-			<item id="164002116" count="50"/><!-- 30min 30% speed -->
-			<item id="164002117" count="50"/><!-- 30min 9% atk speed -->
-			<item id="164002118" count="50"/><!-- 30min 9% cast speed -->
-			<item id="169620005" count="2"/><!-- 2h 20% boost, 4h cooldown -->
-			<item id="164002039" count="1"/><!-- Administrator's Boon – 3-Day Pass -->
+			<!-- Kinah -->
+			<item id="182400001" count="989999999"/>
+			<!-- Scrolls -->
+			<item id="164002235" count="999"/><!-- Greater Running Scroll (10 Minutes) -->
+			<item id="164002236" count="999"/><!-- Greater Courage Scroll (10 Minutes) -->
+			<item id="164002237" count="999"/><!-- Greater Awakening Scroll (10 Minutes) -->
+      <item id="164000255" count="999"/><!-- Fine Crit Strike Scroll -->
+			<item id="164000256" count="999"/><!-- Fine Crit Spell Scroll -->
+			<item id="164000259" count="999"/><!-- Premium Anti-Shock Scroll -->
+			<item id="164000115" count="999"/><!-- Fine Earthproof Scroll -->
+			<item id="164000114" count="999"/><!-- Fine Fireproof Scroll -->
+			<item id="164000116" count="999"/><!-- Fine Waterproof Scroll -->
+			<item id="164000117" count="999"/><!-- Fine Windproof Scroll -->
+			<!-- Potions -->
+			<item id="162000121" count="999"/><!-- Superior Recovery Potion -->
+			<item id="162000124" count="999"/><!-- Superior Recovery Serum -->
+			<!-- <item id="162000125" count="999"/> --><!-- Superior Wind Serum -->
+			<item id="162000137" count="999"/><!-- Sublime Life Serum -->
+			<item id="162000139" count="999"/><!-- Sublime Mana Serum -->
+			<!-- <item id="162000141" count="999"/> --><!-- Sublime Wind Serum -->
+			<item id="162000146" count="999"/><!-- Pure Recovery Crystal -->
+			<item id="162000023" count="999"/><!-- Greater Healing Potion -->
+			<!-- Food -->
+			<item id="160002401" count="999"/><!-- Master Spicy Banquet Food -->
+			<item id="160002402" count="999"/><!-- Master Sweet Banquet Food -->
+			<item id="160002460" count="999"/><!-- Fresh Pepento Juice -->
+			<item id="160002274" count="999"/><!-- Cippo Aether Jelly -->
+			<!-- Candy -->
+			<item id="160010344" count="999"/><!-- Unstoppable Ailu Form (Physical) -->
+			<item id="160010345" count="999"/><!-- Indomitable Ailu Form (Magic) -->
+			<!-- Revival Stones -->
+			<item id="161000004" count="999" /><!-- Tombstone of Revival -->
+			<item id="161000003" count="999" /><!-- Reviving Elemental Stone -->
+			<item id="164000010" count="999" /><!-- Elemental Stone of Resurrection -->
+			<!-- Odella Powder -->
+			<item id="169300007" count="9999" /><!-- Master Odella Powder -->
+			<!-- Return Scrolls -->
+			<item id="164020006" count="9999" /><!-- Return Scroll -->
+			<!-- Enchantment -->
+			<item id="166020000" count="999"/><!-- Omega Enchantment Stone -->
+			<item id="166030005" count="999"/><!-- Tempering Solution -->
+			<item id="168310020" count="999"/><!-- Major Blessed Augment: Level 2 -->
+			<item id="168310017" count="999"/><!-- Major Deep Conditioning: Level 2 -->
+			<!-- Powershard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<!-- Manastones -->
+			<item id="167020080" count="9999"/><!-- Ancient Manastone: Magical Accuracy +22 -->
+			<item id="167020081" count="9999"/><!-- Ancient Manastone: Magic Boost +35 -->
+			<item id="167020082" count="9999"/><!-- Ancient Manastone: Magic Suppression +50 -->
+			<item id="167020083" count="9999"/><!-- Ancient Manastone: Healing Boost +6 -->
+			<item id="167020076" count="9999"/><!-- Ancient Manastone: Spell Resist +11 -->
+			<item id="167020077" count="9999"/><!-- Ancient Manastone: Physical Defense +100 -->
+			<item id="167020078" count="9999"/><!-- Ancient Manastone: Resist Magic +20 -->
+			<item id="167020079" count="9999"/><!-- Ancient Manastone: Attack +8 -->
+			<item id="167020072" count="9999"/><!-- Ancient Manastone: Accuracy +35 -->
+			<item id="167020073" count="9999"/><!-- Ancient Manastone: Evasion +24 -->
+			<item id="167020074" count="9999"/><!-- Ancient Manastone: Crit Strike +24 -->
+			<item id="167020075" count="9999"/><!-- Ancient Manastone: Crit Spell +9 -->
+			<item id="167000705" count="9999"/><!-- Manastone: Magic Boost +27 / Magical Accuracy +7 -->
+			<item id="167000708" count="9999"/><!-- Manastone: Magical Accuracy +14 / Magic Boost +13 -->
+			<item id="167000749" count="9999"/><!-- Manastone: Attack +5 / Crit Strike +8 -->
+			<item id="167000690" count="9999"/><!-- Manastone: Crit Strike +17 / Attack +2 -->
+			<item id="167000572" count="9999"/><!-- Manastone: Crit Spell +5 -->
+			<!-- Godstones -->
+			<item id="168000164" count="99"/><!-- Illusion Godstone: Beritra's Plot -->
+			<item id="168000173" count="99"/><!-- Illusion Godstone: Beritra's Selfishness -->
+			<item id="168000162" count="99"/><!-- Illusion Godstone: Ereshkigal's Honor -->
+			<item id="168000169" count="99"/><!-- Illusion Godstone: Fregion's Stratagem -->
+			<item id="168000165" count="99"/><!-- Illusion Godstone: Fregion's Trick -->
+			<item id="168000167" count="99"/><!-- Illusion Godstone: Kaisinel's Fantasy -->
+			<item id="168000166" count="99"/><!-- Illusion Godstone: Lumiel's Intervention -->
+			<item id="168000171" count="99"/><!-- Illusion Godstone: Marchutan's Impartiality -->
+			<item id="168000161" count="99"/><!--	Illusion Godstone: Meslamtaeda's Greed -->
+			<item id="168000177" count="99"/><!--	Illusion Godstone: Meslamtaeda's Regret -->
+			<item id="168000163" count="99"/><!--	Illusion Godstone: Nezekan's Advance -->
+			<item id="168000170" count="99"/><!--	Illusion Godstone: Tiamat's Counterattack -->
+			<item id="168000174" count="99"/><!--	Illusion Godstone: Tiamat's Fury -->
+			<item id="168000175" count="99"/><!--	Illusion Godstone: Triniel's Rationality -->
+			<item id="168000176" count="99"/><!--	Illusion Godstone: Vaizel's Vow -->
+			<item id="168000172" count="99"/><!--	Illusion Godstone: Yustiel's Generosity -->
+			<item id="168000168" count="99"/><!--	Illusion Godstone: Zikel's Arrogance -->
+			<!-- Stigma -->
+			<item id="188053784" count="999" /><!-- Stigma Bundle -->
+			<item id="188053785" count="999" /><!-- Greater Stigma Bundle -->
+			<item id="188053786" count="999" /><!-- Major Stigma Bundle -->
+			<!-- Plume -->
+			<item id="188053295" count="1" /><!-- Empyrean Plume Chest -->
+			<!-- Mount -->
+			<item id="190100056" count="1" /><!-- Sharptooth Airspike -->
+			<!-- Misc -->
+			<item id="169650008" count="999" /><!-- Plastic Surgery Ticket -->
+			<item id="164002201" count="999" /><!-- Summoning Stone: Warehouse Manager (Group) -->
+			<item id="164002189" count="999" /><!-- Summoning Stone: Stigma Master (Group) -->
 		</items>
 	</player_data>
 	<player_data class="MAGE">
 		<items>
-			<item id="182400001" count="1000"/>
-			<item id="100600034" count="1"/>
-			<item id="110100009" count="1"/>
-			<item id="113100005" count="1"/>
-			<item id="160000001" count="12"/>
-			<item id="169300002" count="20"/>
-			<item id="162000002" count="100"/>
-			<item id="162000007" count="100"/>
-			<!-- Custom bonus items -->
-			<item id="164002116" count="50"/><!-- 30min 30% speed -->
-			<item id="164002117" count="50"/><!-- 30min 9% atk speed -->
-			<item id="164002118" count="50"/><!-- 30min 9% cast speed -->
-			<item id="169620005" count="2"/><!-- 2h 20% boost, 4h cooldown -->
-			<item id="164002039" count="1"/><!-- Administrator's Boon – 3-Day Pass -->
+			<!-- Kinah -->
+			<item id="182400001" count="989999999"/>
+			<!-- Scrolls -->
+			<item id="164002235" count="999"/><!-- Greater Running Scroll (10 Minutes) -->
+			<item id="164002236" count="999"/><!-- Greater Courage Scroll (10 Minutes) -->
+			<item id="164002237" count="999"/><!-- Greater Awakening Scroll (10 Minutes) -->
+      <item id="164000255" count="999"/><!-- Fine Crit Strike Scroll -->
+			<item id="164000256" count="999"/><!-- Fine Crit Spell Scroll -->
+			<item id="164000259" count="999"/><!-- Premium Anti-Shock Scroll -->
+			<item id="164000115" count="999"/><!-- Fine Earthproof Scroll -->
+			<item id="164000114" count="999"/><!-- Fine Fireproof Scroll -->
+			<item id="164000116" count="999"/><!-- Fine Waterproof Scroll -->
+			<item id="164000117" count="999"/><!-- Fine Windproof Scroll -->
+			<!-- Potions -->
+			<item id="162000121" count="999"/><!-- Superior Recovery Potion -->
+			<item id="162000124" count="999"/><!-- Superior Recovery Serum -->
+			<!-- <item id="162000125" count="999"/> --><!-- Superior Wind Serum -->
+			<item id="162000137" count="999"/><!-- Sublime Life Serum -->
+			<item id="162000139" count="999"/><!-- Sublime Mana Serum -->
+			<!-- <item id="162000141" count="999"/> --><!-- Sublime Wind Serum -->
+			<item id="162000146" count="999"/><!-- Pure Recovery Crystal -->
+			<item id="162000023" count="999"/><!-- Greater Healing Potion -->
+			<!-- Food -->
+			<item id="160002401" count="999"/><!-- Master Spicy Banquet Food -->
+			<item id="160002402" count="999"/><!-- Master Sweet Banquet Food -->
+			<item id="160002460" count="999"/><!-- Fresh Pepento Juice -->
+			<item id="160002274" count="999"/><!-- Cippo Aether Jelly -->
+			<!-- Candy -->
+			<item id="160010344" count="999"/><!-- Unstoppable Ailu Form (Physical) -->
+			<item id="160010345" count="999"/><!-- Indomitable Ailu Form (Magic) -->
+			<!-- Revival Stones -->
+			<item id="161000004" count="999" /><!-- Tombstone of Revival -->
+			<item id="161000003" count="999" /><!-- Reviving Elemental Stone -->
+			<item id="164000010" count="999" /><!-- Elemental Stone of Resurrection -->
+			<!-- Odella Powder -->
+			<item id="169300007" count="9999" /><!-- Master Odella Powder -->
+			<!-- Return Scrolls -->
+			<item id="164020006" count="9999" /><!-- Return Scroll -->
+			<!-- Enchantment -->
+			<item id="166020000" count="999"/><!-- Omega Enchantment Stone -->
+			<item id="166030005" count="999"/><!-- Tempering Solution -->
+			<item id="168310020" count="999"/><!-- Major Blessed Augment: Level 2 -->
+			<item id="168310017" count="999"/><!-- Major Deep Conditioning: Level 2 -->
+			<!-- Powershard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<!-- Manastones -->
+			<item id="167020080" count="9999"/><!-- Ancient Manastone: Magical Accuracy +22 -->
+			<item id="167020081" count="9999"/><!-- Ancient Manastone: Magic Boost +35 -->
+			<item id="167020082" count="9999"/><!-- Ancient Manastone: Magic Suppression +50 -->
+			<item id="167020083" count="9999"/><!-- Ancient Manastone: Healing Boost +6 -->
+			<item id="167020076" count="9999"/><!-- Ancient Manastone: Spell Resist +11 -->
+			<item id="167020077" count="9999"/><!-- Ancient Manastone: Physical Defense +100 -->
+			<item id="167020078" count="9999"/><!-- Ancient Manastone: Resist Magic +20 -->
+			<item id="167020079" count="9999"/><!-- Ancient Manastone: Attack +8 -->
+			<item id="167020072" count="9999"/><!-- Ancient Manastone: Accuracy +35 -->
+			<item id="167020073" count="9999"/><!-- Ancient Manastone: Evasion +24 -->
+			<item id="167020074" count="9999"/><!-- Ancient Manastone: Crit Strike +24 -->
+			<item id="167020075" count="9999"/><!-- Ancient Manastone: Crit Spell +9 -->
+			<item id="167000705" count="9999"/><!-- Manastone: Magic Boost +27 / Magical Accuracy +7 -->
+			<item id="167000708" count="9999"/><!-- Manastone: Magical Accuracy +14 / Magic Boost +13 -->
+			<item id="167000749" count="9999"/><!-- Manastone: Attack +5 / Crit Strike +8 -->
+			<item id="167000690" count="9999"/><!-- Manastone: Crit Strike +17 / Attack +2 -->
+			<item id="167000572" count="9999"/><!-- Manastone: Crit Spell +5 -->
+			<!-- Godstones -->
+			<item id="168000164" count="99"/><!-- Illusion Godstone: Beritra's Plot -->
+			<item id="168000173" count="99"/><!-- Illusion Godstone: Beritra's Selfishness -->
+			<item id="168000162" count="99"/><!-- Illusion Godstone: Ereshkigal's Honor -->
+			<item id="168000169" count="99"/><!-- Illusion Godstone: Fregion's Stratagem -->
+			<item id="168000165" count="99"/><!-- Illusion Godstone: Fregion's Trick -->
+			<item id="168000167" count="99"/><!-- Illusion Godstone: Kaisinel's Fantasy -->
+			<item id="168000166" count="99"/><!-- Illusion Godstone: Lumiel's Intervention -->
+			<item id="168000171" count="99"/><!-- Illusion Godstone: Marchutan's Impartiality -->
+			<item id="168000161" count="99"/><!--	Illusion Godstone: Meslamtaeda's Greed -->
+			<item id="168000177" count="99"/><!--	Illusion Godstone: Meslamtaeda's Regret -->
+			<item id="168000163" count="99"/><!--	Illusion Godstone: Nezekan's Advance -->
+			<item id="168000170" count="99"/><!--	Illusion Godstone: Tiamat's Counterattack -->
+			<item id="168000174" count="99"/><!--	Illusion Godstone: Tiamat's Fury -->
+			<item id="168000175" count="99"/><!--	Illusion Godstone: Triniel's Rationality -->
+			<item id="168000176" count="99"/><!--	Illusion Godstone: Vaizel's Vow -->
+			<item id="168000172" count="99"/><!--	Illusion Godstone: Yustiel's Generosity -->
+			<item id="168000168" count="99"/><!--	Illusion Godstone: Zikel's Arrogance -->
+			<!-- Stigma -->
+			<item id="188053784" count="999" /><!-- Stigma Bundle -->
+			<item id="188053785" count="999" /><!-- Greater Stigma Bundle -->
+			<item id="188053786" count="999" /><!-- Major Stigma Bundle -->
+			<!-- Plume -->
+			<item id="188053295" count="1" /><!-- Empyrean Plume Chest -->
+			<!-- Mount -->
+			<item id="190100056" count="1" /><!-- Sharptooth Airspike -->
+			<!-- Misc -->
+			<item id="169650008" count="99" /><!-- Plastic Surgery Ticket -->
+			<item id="164002201" count="999" /><!-- Summoning Stone: Warehouse Manager (Group) -->
+			<item id="164002189" count="999" /><!-- Summoning Stone: Stigma Master (Group) -->
 		</items>
 	</player_data>
 	<player_data class="PRIEST">
 		<items>
-			<item id="182400001" count="1000"/>
-			<item id="100100011" count="1"/>
-			<item id="110300292" count="1"/>
-			<item id="113300278" count="1"/>
-			<item id="160000001" count="12"/>
-			<item id="169300002" count="20"/>
-			<item id="162000002" count="100"/>
-			<item id="162000007" count="100"/>
-			<!-- Custom bonus items -->
-			<item id="164002116" count="50"/><!-- 30min 30% speed -->
-			<item id="164002117" count="50"/><!-- 30min 9% atk speed -->
-			<item id="164002118" count="50"/><!-- 30min 9% cast speed -->
-			<item id="169620005" count="2"/><!-- 2h 20% boost, 4h cooldown -->
-			<item id="164002039" count="1"/><!-- Administrator's Boon – 3-Day Pass -->
+			<!-- Kinah -->
+			<item id="182400001" count="989999999"/>
+			<!-- Scrolls -->
+			<item id="164002235" count="999"/><!-- Greater Running Scroll (10 Minutes) -->
+			<item id="164002236" count="999"/><!-- Greater Courage Scroll (10 Minutes) -->
+			<item id="164002237" count="999"/><!-- Greater Awakening Scroll (10 Minutes) -->
+      <item id="164000255" count="999"/><!-- Fine Crit Strike Scroll -->
+			<item id="164000256" count="999"/><!-- Fine Crit Spell Scroll -->
+			<item id="164000259" count="999"/><!-- Premium Anti-Shock Scroll -->
+			<item id="164000115" count="999"/><!-- Fine Earthproof Scroll -->
+			<item id="164000114" count="999"/><!-- Fine Fireproof Scroll -->
+			<item id="164000116" count="999"/><!-- Fine Waterproof Scroll -->
+			<item id="164000117" count="999"/><!-- Fine Windproof Scroll -->
+			<!-- Potions -->
+			<item id="162000121" count="999"/><!-- Superior Recovery Potion -->
+			<item id="162000124" count="999"/><!-- Superior Recovery Serum -->
+			<!-- <item id="162000125" count="999"/> --><!-- Superior Wind Serum -->
+			<item id="162000137" count="999"/><!-- Sublime Life Serum -->
+			<item id="162000139" count="999"/><!-- Sublime Mana Serum -->
+			<!-- <item id="162000141" count="999"/> --><!-- Sublime Wind Serum -->
+			<item id="162000146" count="999"/><!-- Pure Recovery Crystal -->
+			<item id="162000023" count="999"/><!-- Greater Healing Potion -->
+			<!-- Food -->
+			<item id="160002401" count="999"/><!-- Master Spicy Banquet Food -->
+			<item id="160002402" count="999"/><!-- Master Sweet Banquet Food -->
+			<item id="160002460" count="999"/><!-- Fresh Pepento Juice -->
+			<item id="160002274" count="999"/><!-- Cippo Aether Jelly -->
+			<!-- Candy -->
+			<item id="160010344" count="999"/><!-- Unstoppable Ailu Form (Physical) -->
+			<item id="160010345" count="999"/><!-- Indomitable Ailu Form (Magic) -->
+			<!-- Revival Stones -->
+			<item id="161000004" count="999" /><!-- Tombstone of Revival -->
+			<item id="161000003" count="999" /><!-- Reviving Elemental Stone -->
+			<item id="164000010" count="999" /><!-- Elemental Stone of Resurrection -->
+			<!-- Odella Powder -->
+			<item id="169300007" count="9999" /><!-- Master Odella Powder -->
+			<!-- Return Scrolls -->
+			<item id="164020006" count="9999" /><!-- Return Scroll -->
+			<!-- Enchantment -->
+			<item id="166020000" count="999"/><!-- Omega Enchantment Stone -->
+			<item id="166030005" count="999"/><!-- Tempering Solution -->
+			<item id="168310020" count="999"/><!-- Major Blessed Augment: Level 2 -->
+			<item id="168310017" count="999"/><!-- Major Deep Conditioning: Level 2 -->
+			<!-- Powershard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<!-- Manastones -->
+			<item id="167020080" count="9999"/><!-- Ancient Manastone: Magical Accuracy +22 -->
+			<item id="167020081" count="9999"/><!-- Ancient Manastone: Magic Boost +35 -->
+			<item id="167020082" count="9999"/><!-- Ancient Manastone: Magic Suppression +50 -->
+			<item id="167020083" count="9999"/><!-- Ancient Manastone: Healing Boost +6 -->
+			<item id="167020076" count="9999"/><!-- Ancient Manastone: Spell Resist +11 -->
+			<item id="167020077" count="9999"/><!-- Ancient Manastone: Physical Defense +100 -->
+			<item id="167020078" count="9999"/><!-- Ancient Manastone: Resist Magic +20 -->
+			<item id="167020079" count="9999"/><!-- Ancient Manastone: Attack +8 -->
+			<item id="167020072" count="9999"/><!-- Ancient Manastone: Accuracy +35 -->
+			<item id="167020073" count="9999"/><!-- Ancient Manastone: Evasion +24 -->
+			<item id="167020074" count="9999"/><!-- Ancient Manastone: Crit Strike +24 -->
+			<item id="167020075" count="9999"/><!-- Ancient Manastone: Crit Spell +9 -->
+			<item id="167000705" count="9999"/><!-- Manastone: Magic Boost +27 / Magical Accuracy +7 -->
+			<item id="167000708" count="9999"/><!-- Manastone: Magical Accuracy +14 / Magic Boost +13 -->
+			<item id="167000749" count="9999"/><!-- Manastone: Attack +5 / Crit Strike +8 -->
+			<item id="167000690" count="9999"/><!-- Manastone: Crit Strike +17 / Attack +2 -->
+			<item id="167000572" count="9999"/><!-- Manastone: Crit Spell +5 -->
+			<!-- Godstones -->
+			<item id="168000164" count="99"/><!-- Illusion Godstone: Beritra's Plot -->
+			<item id="168000173" count="99"/><!-- Illusion Godstone: Beritra's Selfishness -->
+			<item id="168000162" count="99"/><!-- Illusion Godstone: Ereshkigal's Honor -->
+			<item id="168000169" count="99"/><!-- Illusion Godstone: Fregion's Stratagem -->
+			<item id="168000165" count="99"/><!-- Illusion Godstone: Fregion's Trick -->
+			<item id="168000167" count="99"/><!-- Illusion Godstone: Kaisinel's Fantasy -->
+			<item id="168000166" count="99"/><!-- Illusion Godstone: Lumiel's Intervention -->
+			<item id="168000171" count="99"/><!-- Illusion Godstone: Marchutan's Impartiality -->
+			<item id="168000161" count="99"/><!--	Illusion Godstone: Meslamtaeda's Greed -->
+			<item id="168000177" count="99"/><!--	Illusion Godstone: Meslamtaeda's Regret -->
+			<item id="168000163" count="99"/><!--	Illusion Godstone: Nezekan's Advance -->
+			<item id="168000170" count="99"/><!--	Illusion Godstone: Tiamat's Counterattack -->
+			<item id="168000174" count="99"/><!--	Illusion Godstone: Tiamat's Fury -->
+			<item id="168000175" count="99"/><!--	Illusion Godstone: Triniel's Rationality -->
+			<item id="168000176" count="99"/><!--	Illusion Godstone: Vaizel's Vow -->
+			<item id="168000172" count="99"/><!--	Illusion Godstone: Yustiel's Generosity -->
+			<item id="168000168" count="99"/><!--	Illusion Godstone: Zikel's Arrogance -->
+			<!-- Stigma -->
+			<item id="188053784" count="999" /><!-- Stigma Bundle -->
+			<item id="188053785" count="999" /><!-- Greater Stigma Bundle -->
+			<item id="188053786" count="999" /><!-- Major Stigma Bundle -->
+			<!-- Plume -->
+			<item id="188053295" count="1" /><!-- Empyrean Plume Chest -->
+			<!-- Mount -->
+			<item id="190100056" count="1" /><!-- Sharptooth Airspike -->
+			<!-- Misc -->
+			<item id="169650008" count="99" /><!-- Plastic Surgery Ticket -->
+			<item id="164002201" count="999" /><!-- Summoning Stone: Warehouse Manager (Group) -->
+			<item id="164002189" count="999" /><!-- Summoning Stone: Stigma Master (Group) -->
 		</items>
 	</player_data>
 	<player_data class="SCOUT">
 		<items>
-			<item id="182400001" count="1000"/>
-			<item id="100200112" count="1"/>
-			<item id="110300015" count="1"/>
-			<item id="113300005" count="1"/>
-			<item id="160000001" count="12"/>
-			<item id="169300002" count="20"/>
-			<item id="162000002" count="100"/>
-			<item id="162000007" count="100"/>
-			<!-- Custom bonus items -->
-			<item id="164002116" count="50"/><!-- 30min 30% speed -->
-			<item id="164002117" count="50"/><!-- 30min 9% atk speed -->
-			<item id="164002118" count="50"/><!-- 30min 9% cast speed -->
-			<item id="169620005" count="2"/><!-- 2h 20% boost, 4h cooldown -->
-			<item id="164002039" count="1"/><!-- Administrator's Boon – 3-Day Pass -->
+			<!-- Kinah -->
+			<item id="182400001" count="989999999"/>
+			<!-- Scrolls -->
+			<item id="164002235" count="999"/><!-- Greater Running Scroll (10 Minutes) -->
+			<item id="164002236" count="999"/><!-- Greater Courage Scroll (10 Minutes) -->
+			<item id="164002237" count="999"/><!-- Greater Awakening Scroll (10 Minutes) -->
+      <item id="164000255" count="999"/><!-- Fine Crit Strike Scroll -->
+			<item id="164000256" count="999"/><!-- Fine Crit Spell Scroll -->
+			<item id="164000259" count="999"/><!-- Premium Anti-Shock Scroll -->
+			<item id="164000115" count="999"/><!-- Fine Earthproof Scroll -->
+			<item id="164000114" count="999"/><!-- Fine Fireproof Scroll -->
+			<item id="164000116" count="999"/><!-- Fine Waterproof Scroll -->
+			<item id="164000117" count="999"/><!-- Fine Windproof Scroll -->
+			<!-- Potions -->
+			<item id="162000121" count="999"/><!-- Superior Recovery Potion -->
+			<item id="162000124" count="999"/><!-- Superior Recovery Serum -->
+			<!-- <item id="162000125" count="999"/> --><!-- Superior Wind Serum -->
+			<item id="162000137" count="999"/><!-- Sublime Life Serum -->
+			<item id="162000139" count="999"/><!-- Sublime Mana Serum -->
+			<!-- <item id="162000141" count="999"/> --><!-- Sublime Wind Serum -->
+			<item id="162000146" count="999"/><!-- Pure Recovery Crystal -->
+			<item id="162000023" count="999"/><!-- Greater Healing Potion -->
+			<!-- Food -->
+			<item id="160002401" count="999"/><!-- Master Spicy Banquet Food -->
+			<item id="160002402" count="999"/><!-- Master Sweet Banquet Food -->
+			<item id="160002460" count="999"/><!-- Fresh Pepento Juice -->
+			<item id="160002274" count="999"/><!-- Cippo Aether Jelly -->
+			<!-- Candy -->
+			<item id="160010344" count="999"/><!-- Unstoppable Ailu Form (Physical) -->
+			<item id="160010345" count="999"/><!-- Indomitable Ailu Form (Magic) -->
+			<!-- Revival Stones -->
+			<item id="161000004" count="999" /><!-- Tombstone of Revival -->
+			<item id="161000003" count="999" /><!-- Reviving Elemental Stone -->
+			<item id="164000010" count="999" /><!-- Elemental Stone of Resurrection -->
+			<!-- Odella Powder -->
+			<item id="169300007" count="9999" /><!-- Master Odella Powder -->
+			<!-- Return Scrolls -->
+			<item id="164020006" count="9999" /><!-- Return Scroll -->
+			<!-- Enchantment -->
+			<item id="166020000" count="999"/><!-- Omega Enchantment Stone -->
+			<item id="166030005" count="999"/><!-- Tempering Solution -->
+			<item id="168310020" count="999"/><!-- Major Blessed Augment: Level 2 -->
+			<item id="168310017" count="999"/><!-- Major Deep Conditioning: Level 2 -->
+			<!-- Powershard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<!-- Manastones -->
+			<item id="167020080" count="9999"/><!-- Ancient Manastone: Magical Accuracy +22 -->
+			<item id="167020081" count="9999"/><!-- Ancient Manastone: Magic Boost +35 -->
+			<item id="167020082" count="9999"/><!-- Ancient Manastone: Magic Suppression +50 -->
+			<item id="167020083" count="9999"/><!-- Ancient Manastone: Healing Boost +6 -->
+			<item id="167020076" count="9999"/><!-- Ancient Manastone: Spell Resist +11 -->
+			<item id="167020077" count="9999"/><!-- Ancient Manastone: Physical Defense +100 -->
+			<item id="167020078" count="9999"/><!-- Ancient Manastone: Resist Magic +20 -->
+			<item id="167020079" count="9999"/><!-- Ancient Manastone: Attack +8 -->
+			<item id="167020072" count="9999"/><!-- Ancient Manastone: Accuracy +35 -->
+			<item id="167020073" count="9999"/><!-- Ancient Manastone: Evasion +24 -->
+			<item id="167020074" count="9999"/><!-- Ancient Manastone: Crit Strike +24 -->
+			<item id="167020075" count="9999"/><!-- Ancient Manastone: Crit Spell +9 -->
+			<item id="167000705" count="9999"/><!-- Manastone: Magic Boost +27 / Magical Accuracy +7 -->
+			<item id="167000708" count="9999"/><!-- Manastone: Magical Accuracy +14 / Magic Boost +13 -->
+			<item id="167000749" count="9999"/><!-- Manastone: Attack +5 / Crit Strike +8 -->
+			<item id="167000690" count="9999"/><!-- Manastone: Crit Strike +17 / Attack +2 -->
+			<item id="167000572" count="9999"/><!-- Manastone: Crit Spell +5 -->
+			<!-- Godstones -->
+			<item id="168000164" count="99"/><!-- Illusion Godstone: Beritra's Plot -->
+			<item id="168000173" count="99"/><!-- Illusion Godstone: Beritra's Selfishness -->
+			<item id="168000162" count="99"/><!-- Illusion Godstone: Ereshkigal's Honor -->
+			<item id="168000169" count="99"/><!-- Illusion Godstone: Fregion's Stratagem -->
+			<item id="168000165" count="99"/><!-- Illusion Godstone: Fregion's Trick -->
+			<item id="168000167" count="99"/><!-- Illusion Godstone: Kaisinel's Fantasy -->
+			<item id="168000166" count="99"/><!-- Illusion Godstone: Lumiel's Intervention -->
+			<item id="168000171" count="99"/><!-- Illusion Godstone: Marchutan's Impartiality -->
+			<item id="168000161" count="99"/><!--	Illusion Godstone: Meslamtaeda's Greed -->
+			<item id="168000177" count="99"/><!--	Illusion Godstone: Meslamtaeda's Regret -->
+			<item id="168000163" count="99"/><!--	Illusion Godstone: Nezekan's Advance -->
+			<item id="168000170" count="99"/><!--	Illusion Godstone: Tiamat's Counterattack -->
+			<item id="168000174" count="99"/><!--	Illusion Godstone: Tiamat's Fury -->
+			<item id="168000175" count="99"/><!--	Illusion Godstone: Triniel's Rationality -->
+			<item id="168000176" count="99"/><!--	Illusion Godstone: Vaizel's Vow -->
+			<item id="168000172" count="99"/><!--	Illusion Godstone: Yustiel's Generosity -->
+			<item id="168000168" count="99"/><!--	Illusion Godstone: Zikel's Arrogance -->
+			<!-- Stigma -->
+			<item id="188053784" count="999" /><!-- Stigma Bundle -->
+			<item id="188053785" count="999" /><!-- Greater Stigma Bundle -->
+			<item id="188053786" count="999" /><!-- Major Stigma Bundle -->
+			<!-- Plume -->
+			<item id="188053295" count="1" /><!-- Empyrean Plume Chest -->
+			<!-- Mount -->
+			<item id="190100056" count="1" /><!-- Sharptooth Airspike -->
+			<!-- Misc -->
+			<item id="169650008" count="99" /><!-- Plastic Surgery Ticket -->
+			<item id="164002201" count="999" /><!-- Summoning Stone: Warehouse Manager (Group) -->
+			<item id="164002189" count="999" /><!-- Summoning Stone: Stigma Master (Group) -->
 		</items>
 	</player_data>
 	<player_data class="ENGINEER">
 		<items>
-			<item id="182400001" count="1000"/>
-			<item id="101800181" count="1"/>
-			<item id="110301667" count="1"/>
-			<item id="113301636" count="1"/>
-			<item id="160000001" count="12"/>
-			<item id="169300002" count="20"/>
-			<item id="162000002" count="100"/>
-			<item id="162000007" count="100"/>
-			<!-- Custom bonus items -->
-			<item id="164002116" count="50"/><!-- 30min 30% speed -->
-			<item id="164002117" count="50"/><!-- 30min 9% atk speed -->
-			<item id="164002118" count="50"/><!-- 30min 9% cast speed -->
-			<item id="169620005" count="2"/><!-- 2h 20% boost, 4h cooldown -->
-			<item id="164002039" count="1"/><!-- Administrator's Boon – 3-Day Pass -->
+			<!-- Kinah -->
+			<item id="182400001" count="989999999"/>
+			<!-- Scrolls -->
+			<item id="164002235" count="999"/><!-- Greater Running Scroll (10 Minutes) -->
+			<item id="164002236" count="999"/><!-- Greater Courage Scroll (10 Minutes) -->
+			<item id="164002237" count="999"/><!-- Greater Awakening Scroll (10 Minutes) -->
+      <item id="164000255" count="999"/><!-- Fine Crit Strike Scroll -->
+			<item id="164000256" count="999"/><!-- Fine Crit Spell Scroll -->
+			<item id="164000259" count="999"/><!-- Premium Anti-Shock Scroll -->
+			<item id="164000115" count="999"/><!-- Fine Earthproof Scroll -->
+			<item id="164000114" count="999"/><!-- Fine Fireproof Scroll -->
+			<item id="164000116" count="999"/><!-- Fine Waterproof Scroll -->
+			<item id="164000117" count="999"/><!-- Fine Windproof Scroll -->
+			<!-- Potions -->
+			<item id="162000121" count="999"/><!-- Superior Recovery Potion -->
+			<item id="162000124" count="999"/><!-- Superior Recovery Serum -->
+			<!-- <item id="162000125" count="999"/> --><!-- Superior Wind Serum -->
+			<item id="162000137" count="999"/><!-- Sublime Life Serum -->
+			<item id="162000139" count="999"/><!-- Sublime Mana Serum -->
+			<!-- <item id="162000141" count="999"/> --><!-- Sublime Wind Serum -->
+			<item id="162000146" count="999"/><!-- Pure Recovery Crystal -->
+			<item id="162000023" count="999"/><!-- Greater Healing Potion -->
+			<!-- Food -->
+			<item id="160002401" count="999"/><!-- Master Spicy Banquet Food -->
+			<item id="160002402" count="999"/><!-- Master Sweet Banquet Food -->
+			<item id="160002460" count="999"/><!-- Fresh Pepento Juice -->
+			<item id="160002274" count="999"/><!-- Cippo Aether Jelly -->
+			<!-- Candy -->
+			<item id="160010344" count="999"/><!-- Unstoppable Ailu Form (Physical) -->
+			<item id="160010345" count="999"/><!-- Indomitable Ailu Form (Magic) -->
+			<!-- Revival Stones -->
+			<item id="161000004" count="999" /><!-- Tombstone of Revival -->
+			<item id="161000003" count="999" /><!-- Reviving Elemental Stone -->
+			<item id="164000010" count="999" /><!-- Elemental Stone of Resurrection -->
+			<!-- Odella Powder -->
+			<item id="169300007" count="9999" /><!-- Master Odella Powder -->
+			<!-- Return Scrolls -->
+			<item id="164020006" count="9999" /><!-- Return Scroll -->
+			<!-- Enchantment -->
+			<item id="166020000" count="999"/><!-- Omega Enchantment Stone -->
+			<item id="166030005" count="999"/><!-- Tempering Solution -->
+			<item id="168310020" count="999"/><!-- Major Blessed Augment: Level 2 -->
+			<item id="168310017" count="999"/><!-- Major Deep Conditioning: Level 2 -->
+			<!-- Powershard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<!-- Manastones -->
+			<item id="167020080" count="9999"/><!-- Ancient Manastone: Magical Accuracy +22 -->
+			<item id="167020081" count="9999"/><!-- Ancient Manastone: Magic Boost +35 -->
+			<item id="167020082" count="9999"/><!-- Ancient Manastone: Magic Suppression +50 -->
+			<item id="167020083" count="9999"/><!-- Ancient Manastone: Healing Boost +6 -->
+			<item id="167020076" count="9999"/><!-- Ancient Manastone: Spell Resist +11 -->
+			<item id="167020077" count="9999"/><!-- Ancient Manastone: Physical Defense +100 -->
+			<item id="167020078" count="9999"/><!-- Ancient Manastone: Resist Magic +20 -->
+			<item id="167020079" count="9999"/><!-- Ancient Manastone: Attack +8 -->
+			<item id="167020072" count="9999"/><!-- Ancient Manastone: Accuracy +35 -->
+			<item id="167020073" count="9999"/><!-- Ancient Manastone: Evasion +24 -->
+			<item id="167020074" count="9999"/><!-- Ancient Manastone: Crit Strike +24 -->
+			<item id="167020075" count="9999"/><!-- Ancient Manastone: Crit Spell +9 -->
+			<item id="167000705" count="9999"/><!-- Manastone: Magic Boost +27 / Magical Accuracy +7 -->
+			<item id="167000708" count="9999"/><!-- Manastone: Magical Accuracy +14 / Magic Boost +13 -->
+			<item id="167000749" count="9999"/><!-- Manastone: Attack +5 / Crit Strike +8 -->
+			<item id="167000690" count="9999"/><!-- Manastone: Crit Strike +17 / Attack +2 -->
+			<item id="167000572" count="9999"/><!-- Manastone: Crit Spell +5 -->
+			<!-- Godstones -->
+			<item id="168000164" count="99"/><!-- Illusion Godstone: Beritra's Plot -->
+			<item id="168000173" count="99"/><!-- Illusion Godstone: Beritra's Selfishness -->
+			<item id="168000162" count="99"/><!-- Illusion Godstone: Ereshkigal's Honor -->
+			<item id="168000169" count="99"/><!-- Illusion Godstone: Fregion's Stratagem -->
+			<item id="168000165" count="99"/><!-- Illusion Godstone: Fregion's Trick -->
+			<item id="168000167" count="99"/><!-- Illusion Godstone: Kaisinel's Fantasy -->
+			<item id="168000166" count="99"/><!-- Illusion Godstone: Lumiel's Intervention -->
+			<item id="168000171" count="99"/><!-- Illusion Godstone: Marchutan's Impartiality -->
+			<item id="168000161" count="99"/><!--	Illusion Godstone: Meslamtaeda's Greed -->
+			<item id="168000177" count="99"/><!--	Illusion Godstone: Meslamtaeda's Regret -->
+			<item id="168000163" count="99"/><!--	Illusion Godstone: Nezekan's Advance -->
+			<item id="168000170" count="99"/><!--	Illusion Godstone: Tiamat's Counterattack -->
+			<item id="168000174" count="99"/><!--	Illusion Godstone: Tiamat's Fury -->
+			<item id="168000175" count="99"/><!--	Illusion Godstone: Triniel's Rationality -->
+			<item id="168000176" count="99"/><!--	Illusion Godstone: Vaizel's Vow -->
+			<item id="168000172" count="99"/><!--	Illusion Godstone: Yustiel's Generosity -->
+			<item id="168000168" count="99"/><!--	Illusion Godstone: Zikel's Arrogance -->
+			<!-- Stigma -->
+			<item id="188053784" count="999" /><!-- Stigma Bundle -->
+			<item id="188053785" count="999" /><!-- Greater Stigma Bundle -->
+			<item id="188053786" count="999" /><!-- Major Stigma Bundle -->
+			<!-- Plume -->
+			<item id="188053295" count="1" /><!-- Empyrean Plume Chest -->
+			<!-- Mount -->
+			<item id="190100056" count="1" /><!-- Sharptooth Airspike -->
+			<!-- Misc -->
+			<item id="169650008" count="99" /><!-- Plastic Surgery Ticket -->
+			<item id="164002201" count="999" /><!-- Summoning Stone: Warehouse Manager (Group) -->
+			<item id="164002189" count="999" /><!-- Summoning Stone: Stigma Master (Group) -->
 		</items>
 	</player_data>
 	<player_data class="ARTIST">
 		<items>
-			<item id="182400001" count="1000"/>
-			<item id="102000194" count="1"/>
-			<item id="110101658" count="1"/>
-			<item id="113101509" count="1"/>
-			<item id="160000001" count="12"/>
-			<item id="169300002" count="20"/>
-			<item id="162000002" count="100"/>
-			<item id="162000007" count="100"/>
-			<!-- Custom bonus items -->
-			<item id="164002116" count="50"/><!-- 30min 30% speed -->
-			<item id="164002117" count="50"/><!-- 30min 9% atk speed -->
-			<item id="164002118" count="50"/><!-- 30min 9% cast speed -->
-			<item id="169620005" count="2"/><!-- 2h 20% boost, 4h cooldown -->
-			<item id="164002039" count="1"/><!-- Administrator's Boon – 3-Day Pass -->
+			<!-- Kinah -->
+			<item id="182400001" count="989999999"/>
+			<!-- Scrolls -->
+			<item id="164002235" count="999"/><!-- Greater Running Scroll (10 Minutes) -->
+			<item id="164002236" count="999"/><!-- Greater Courage Scroll (10 Minutes) -->
+			<item id="164002237" count="999"/><!-- Greater Awakening Scroll (10 Minutes) -->
+      <item id="164000255" count="999"/><!-- Fine Crit Strike Scroll -->
+			<item id="164000256" count="999"/><!-- Fine Crit Spell Scroll -->
+			<item id="164000259" count="999"/><!-- Premium Anti-Shock Scroll -->
+			<item id="164000115" count="999"/><!-- Fine Earthproof Scroll -->
+			<item id="164000114" count="999"/><!-- Fine Fireproof Scroll -->
+			<item id="164000116" count="999"/><!-- Fine Waterproof Scroll -->
+			<item id="164000117" count="999"/><!-- Fine Windproof Scroll -->
+			<!-- Potions -->
+			<item id="162000121" count="999"/><!-- Superior Recovery Potion -->
+			<item id="162000124" count="999"/><!-- Superior Recovery Serum -->
+			<!-- <item id="162000125" count="999"/> --><!-- Superior Wind Serum -->
+			<item id="162000137" count="999"/><!-- Sublime Life Serum -->
+			<item id="162000139" count="999"/><!-- Sublime Mana Serum -->
+			<!-- <item id="162000141" count="999"/> --><!-- Sublime Wind Serum -->
+			<item id="162000146" count="999"/><!-- Pure Recovery Crystal -->
+			<item id="162000023" count="999"/><!-- Greater Healing Potion -->
+			<!-- Food -->
+			<item id="160002401" count="999"/><!-- Master Spicy Banquet Food -->
+			<item id="160002402" count="999"/><!-- Master Sweet Banquet Food -->
+			<item id="160002460" count="999"/><!-- Fresh Pepento Juice -->
+			<item id="160002274" count="999"/><!-- Cippo Aether Jelly -->
+			<!-- Candy -->
+			<item id="160010344" count="999"/><!-- Unstoppable Ailu Form (Physical) -->
+			<item id="160010345" count="999"/><!-- Indomitable Ailu Form (Magic) -->
+			<!-- Revival Stones -->
+			<item id="161000004" count="999" /><!-- Tombstone of Revival -->
+			<item id="161000003" count="999" /><!-- Reviving Elemental Stone -->
+			<item id="164000010" count="999" /><!-- Elemental Stone of Resurrection -->
+			<!-- Odella Powder -->
+			<item id="169300007" count="9999" /><!-- Master Odella Powder -->
+			<!-- Return Scrolls -->
+			<item id="164020006" count="9999" /><!-- Return Scroll -->
+			<!-- Enchantment -->
+			<item id="166020000" count="999"/><!-- Omega Enchantment Stone -->
+			<item id="166030005" count="999"/><!-- Tempering Solution -->
+			<item id="168310020" count="999"/><!-- Major Blessed Augment: Level 2 -->
+			<item id="168310017" count="999"/><!-- Major Deep Conditioning: Level 2 -->
+			<!-- Powershard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<item id="169000011" count="10000"/><!-- Ancient Power Shard -->
+			<!-- Manastones -->
+			<item id="167020080" count="9999"/><!-- Ancient Manastone: Magical Accuracy +22 -->
+			<item id="167020081" count="9999"/><!-- Ancient Manastone: Magic Boost +35 -->
+			<item id="167020082" count="9999"/><!-- Ancient Manastone: Magic Suppression +50 -->
+			<item id="167020083" count="9999"/><!-- Ancient Manastone: Healing Boost +6 -->
+			<item id="167020076" count="9999"/><!-- Ancient Manastone: Spell Resist +11 -->
+			<item id="167020077" count="9999"/><!-- Ancient Manastone: Physical Defense +100 -->
+			<item id="167020078" count="9999"/><!-- Ancient Manastone: Resist Magic +20 -->
+			<item id="167020079" count="9999"/><!-- Ancient Manastone: Attack +8 -->
+			<item id="167020072" count="9999"/><!-- Ancient Manastone: Accuracy +35 -->
+			<item id="167020073" count="9999"/><!-- Ancient Manastone: Evasion +24 -->
+			<item id="167020074" count="9999"/><!-- Ancient Manastone: Crit Strike +24 -->
+			<item id="167020075" count="9999"/><!-- Ancient Manastone: Crit Spell +9 -->
+			<item id="167000705" count="9999"/><!-- Manastone: Magic Boost +27 / Magical Accuracy +7 -->
+			<item id="167000708" count="9999"/><!-- Manastone: Magical Accuracy +14 / Magic Boost +13 -->
+			<item id="167000749" count="9999"/><!-- Manastone: Attack +5 / Crit Strike +8 -->
+			<item id="167000690" count="9999"/><!-- Manastone: Crit Strike +17 / Attack +2 -->
+			<item id="167000572" count="9999"/><!-- Manastone: Crit Spell +5 -->
+			<!-- Godstones -->
+			<item id="168000164" count="99"/><!-- Illusion Godstone: Beritra's Plot -->
+			<item id="168000173" count="99"/><!-- Illusion Godstone: Beritra's Selfishness -->
+			<item id="168000162" count="99"/><!-- Illusion Godstone: Ereshkigal's Honor -->
+			<item id="168000169" count="99"/><!-- Illusion Godstone: Fregion's Stratagem -->
+			<item id="168000165" count="99"/><!-- Illusion Godstone: Fregion's Trick -->
+			<item id="168000167" count="99"/><!-- Illusion Godstone: Kaisinel's Fantasy -->
+			<item id="168000166" count="99"/><!-- Illusion Godstone: Lumiel's Intervention -->
+			<item id="168000171" count="99"/><!-- Illusion Godstone: Marchutan's Impartiality -->
+			<item id="168000161" count="99"/><!--	Illusion Godstone: Meslamtaeda's Greed -->
+			<item id="168000177" count="99"/><!--	Illusion Godstone: Meslamtaeda's Regret -->
+			<item id="168000163" count="99"/><!--	Illusion Godstone: Nezekan's Advance -->
+			<item id="168000170" count="99"/><!--	Illusion Godstone: Tiamat's Counterattack -->
+			<item id="168000174" count="99"/><!--	Illusion Godstone: Tiamat's Fury -->
+			<item id="168000175" count="99"/><!--	Illusion Godstone: Triniel's Rationality -->
+			<item id="168000176" count="99"/><!--	Illusion Godstone: Vaizel's Vow -->
+			<item id="168000172" count="99"/><!--	Illusion Godstone: Yustiel's Generosity -->
+			<item id="168000168" count="99"/><!--	Illusion Godstone: Zikel's Arrogance -->
+			<!-- Stigma -->
+			<item id="188053784" count="999" /><!-- Stigma Bundle -->
+			<item id="188053785" count="999" /><!-- Greater Stigma Bundle -->
+			<item id="188053786" count="999" /><!-- Major Stigma Bundle -->
+			<!-- Plume -->
+			<item id="188053295" count="1" /><!-- Empyrean Plume Chest -->
+			<!-- Mount -->
+			<item id="190100056" count="1" /><!-- Sharptooth Airspike -->
+			<!-- Misc -->
+			<item id="169650008" count="99" /><!-- Plastic Surgery Ticket -->
+			<item id="164002201" count="999" /><!-- Summoning Stone: Warehouse Manager (Group) -->
+			<item id="164002189" count="999" /><!-- Summoning Stone: Stigma Master (Group) -->
 		</items>
 	</player_data>
 </player_initial_data>
