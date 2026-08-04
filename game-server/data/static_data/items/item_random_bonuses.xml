@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <random_bonuses>
 	<random_bonus type="INVENTORY" id="1">
-		<modifiers chance="50.0">
-			<add name="MAXHP" value="100" bonus="true"/>
-			<add name="MAXMP" value="-50" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="-100" bonus="true"/>
 			<add name="MAXMP" value="-50" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
@@ -29,39 +25,12 @@
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="4">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="100" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="101" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="102" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="103" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="104" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="105" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="106" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="107" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="108" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="109" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="5">
-		<modifiers chance="70.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="100" bonus="true"/>
 			<add name="MAXMP" value="50" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
@@ -73,1341 +42,245 @@
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="6">
-		<modifiers chance="16.66">
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="16.66">
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="16.66">
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="16.66">
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="16.66">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="7">
-		<modifiers chance="7.5">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="8">
-		<modifiers chance="7.5">
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="9">
-		<modifiers chance="7.5">
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="PHYSICAL_CRITICAL" value="6" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="10">
-		<modifiers chance="7.5">
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="11">
-		<modifiers chance="7.5">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="12">
-		<modifiers chance="7.5">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="13">
-		<modifiers chance="7.5">
-			<add name="BLOCK" value="3" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="BLOCK" value="6" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="BLOCK" value="9" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="BLOCK" value="12" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="BLOCK" value="15" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="14">
-		<modifiers chance="7.5">
-			<add name="CONCENTRATION" value="3" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="CONCENTRATION" value="6" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="CONCENTRATION" value="9" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="CONCENTRATION" value="12" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="CONCENTRATION" value="15" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="15">
-		<modifiers chance="7.5">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="16">
-		<modifiers chance="7.5">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="MAXHP" value="48" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="MAXHP" value="40" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="MAXHP" value="32" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
 			<add name="MAXHP" value="16" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="17">
-		<modifiers chance="7.5">
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="MAXHP" value="36" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAXHP" value="30" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAXHP" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
 			<add name="MAXHP" value="12" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="18">
-		<modifiers chance="7.5">
-			<add name="MAGICAL_ATTACK" value="2" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="MAGICAL_ATTACK" value="4" bonus="true"/>
-			<add name="MAXHP" value="20" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="MAGICAL_ATTACK" value="6" bonus="true"/>
-			<add name="MAXHP" value="16" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="MAGICAL_ATTACK" value="8" bonus="true"/>
-			<add name="MAXHP" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_ATTACK" value="10" bonus="true"/>
 			<add name="MAXHP" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="19">
-		<modifiers chance="7.5">
-			<add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="MAXHP" value="20" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAXHP" value="16" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAXHP" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
 			<add name="MAXHP" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="20">
-		<modifiers chance="7.5">
-			<add name="EVASION" value="2" bonus="true"/>
-			<add name="MAXHP" value="36" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="EVASION" value="3" bonus="true"/>
-			<add name="MAXHP" value="30" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="EVASION" value="4" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="EVASION" value="5" bonus="true"/>
-			<add name="MAXHP" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="EVASION" value="6" bonus="true"/>
 			<add name="MAXHP" value="12" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="21">
-		<modifiers chance="7.5">
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="MAXHP" value="20" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<add name="MAXHP" value="16" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="MAXHP" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<add name="MAXHP" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="22">
-		<modifiers chance="7.5">
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="MAXHP" value="20" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="MAXHP" value="16" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="MAXHP" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="PARRY" value="5" bonus="true"/>
 			<add name="MAXHP" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="23">
-		<modifiers chance="7.5">
-			<add name="HEAL_BOOST" value="1" bonus="true"/>
-			<add name="MAXHP" value="36" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="HEAL_BOOST" value="2" bonus="true"/>
-			<add name="MAXHP" value="30" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="HEAL_BOOST" value="3" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="HEAL_BOOST" value="4" bonus="true"/>
-			<add name="MAXHP" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="HEAL_BOOST" value="5" bonus="true"/>
 			<add name="MAXHP" value="12" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="24">
-		<modifiers chance="7.5">
-			<add name="BLOCK" value="2" bonus="true"/>
-			<add name="MAXHP" value="36" bonus="true"/>
-		</modifiers>
-		<modifiers chance="3.75">
-			<add name="BLOCK" value="3" bonus="true"/>
-			<add name="MAXHP" value="30" bonus="true"/>
-		</modifiers>
-		<modifiers chance="2.25">
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAXHP" value="24" bonus="true"/>
-		</modifiers>
-		<modifiers chance="1.2">
-			<add name="BLOCK" value="5" bonus="true"/>
-			<add name="MAXHP" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="0.3">
+		<modifiers chance="100.0">
 			<add name="BLOCK" value="6" bonus="true"/>
 			<add name="MAXHP" value="12" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="25">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="26">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
 			<add name="HEAL_BOOST" value="8" bonus="true"/>
 			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<add name="HEAL_BOOST" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="HEAL_BOOST" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<add name="HEAL_BOOST" value="4" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="HEAL_BOOST" value="6" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="HEAL_BOOST" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="27">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="28">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
 			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="29">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
 			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="30">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="31">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="32">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="33">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="15" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="15" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="15" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="13" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="34">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="EVASION" value="4" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
 		</modifiers>
-		<modifiers chance="17.5">
-			<add name="EVASION" value="-53" bonus="true"/>
-			<add name="PARRY" value="107" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-53" bonus="true"/>
-			<add name="PARRY" value="105" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="104" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-53" bonus="true"/>
-			<add name="PARRY" value="106" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="1" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-53" bonus="true"/>
-			<add name="PARRY" value="104" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="35">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="EVASION" value="3" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="56" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="54" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="52" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="55" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="1" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="52" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="36">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="EVASION" value="3" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="56" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="54" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="52" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="55" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="1" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="52" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="37">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="EVASION" value="3" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="EVASION" value="-40" bonus="true"/>
-			<add name="PARRY" value="79" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-40" bonus="true"/>
-			<add name="PARRY" value="77" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="76" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-40" bonus="true"/>
-			<add name="PARRY" value="78" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="1" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-40" bonus="true"/>
-			<add name="PARRY" value="76" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="38">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="EVASION" value="3" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="56" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="54" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="52" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="55" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="1" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="EVASION" value="-26" bonus="true"/>
-			<add name="PARRY" value="52" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="39">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="SILENCE_RESISTANCE" value="9" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="9" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="7" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE" value="7" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
 		</modifiers>
 	</random_bonus>
@@ -1416,238 +289,46 @@
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE" value="4" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="41">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE" value="4" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="42">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="SILENCE_RESISTANCE" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="7" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="-4" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="43">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE" value="4" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="44">
-		<modifiers chance="17.5">
+		<modifiers chance="50.0">
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
 		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="50.0">
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="-55" bonus="true"/>
@@ -1656,132 +337,22 @@
 			<add name="SILENCE_RESISTANCE" value="9" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
 		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-55" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="HEAL_BOOST" value="33" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-55" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="HEAL_BOOST" value="34" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="HEAL_BOOST" value="32" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="7" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-55" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="HEAL_BOOST" value="33" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-55" bonus="true"/>
-			<add name="HEAL_BOOST" value="35" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-6" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="45">
-		<modifiers chance="17.5">
+		<modifiers chance="50.0">
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
 		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="50.0">
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="-28" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
 			<add name="HEAL_BOOST" value="18" bonus="true"/>
 			<add name="SILENCE_RESISTANCE" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-28" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="HEAL_BOOST" value="16" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-28" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="HEAL_BOOST" value="17" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="HEAL_BOOST" value="15" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-28" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="HEAL_BOOST" value="16" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="-28" bonus="true"/>
-			<add name="HEAL_BOOST" value="18" bonus="true"/>
-			<add name="SILENCE_RESISTANCE" value="3" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="-3" bonus="true"/>
 		</modifiers>
 	</random_bonus>
@@ -2186,1225 +757,180 @@
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="52">
-		<modifiers chance="17.5">
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PARRY" value="107" bonus="true"/>
-			<add name="BLOCK" value="-104" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="80" bonus="true"/>
-			<add name="BLOCK" value="-104" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="BLOCK" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
+		<modifiers chance="100.0">
 			<add name="PARRY" value="77" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="79" bonus="true"/>
-			<add name="BLOCK" value="-104" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="BLOCK" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="77" bonus="true"/>
-			<add name="BLOCK" value="-104" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="53">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="BLOCK" value="5" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
 		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PARRY" value="56" bonus="true"/>
-			<add name="BLOCK" value="-67" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="55" bonus="true"/>
-			<add name="BLOCK" value="-67" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="BLOCK" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="52" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="54" bonus="true"/>
-			<add name="BLOCK" value="-67" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="BLOCK" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PARRY" value="52" bonus="true"/>
-			<add name="BLOCK" value="-67" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="54">
-		<modifiers chance="35.0">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
 			<add name="BLOCK" value="8" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
 		</modifiers>
-		<modifiers chance="7.4">
-			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
-			<add name="BLOCK" value="5" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
-			<add name="BLOCK" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
-			<add name="BLOCK" value="7" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BLOCK" value="8" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BLOCK" value="6" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BLOCK" value="5" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="BLOCK" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="55">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="9" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="9" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-5" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="56">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="57">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<add name="HEAL_BOOST" value="8" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="HEAL_BOOST" value="8" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="HEAL_BOOST" value="8" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="HEAL_BOOST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="HEAL_BOOST" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="HEAL_BOOST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="58">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="59">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="60">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="61">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="62">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="63">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="PARRY" value="4" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PARRY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PARRY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="PARRY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PARRY" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="64">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="12" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
 		</modifiers>
-		<modifiers chance="17.5">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="12" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="12" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="65">
-		<modifiers chance="35.0">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
 			<add name="BLOCK" value="5" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
 		</modifiers>
-		<modifiers chance="7.4">
-			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
-			<add name="BLOCK" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
-			<add name="BLOCK" value="4" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BLOCK" value="5" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BLOCK" value="3" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BLOCK" value="5" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="7.2">
-			<add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="BLOCK" value="2" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="66">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
 		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="11" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="9" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="67">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="68">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="69">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
 		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="70">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="71">
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
 			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="72">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
@@ -3412,435 +938,72 @@
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
 		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="73">
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="18.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="74">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="0" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="0" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="0" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="0" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="75">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="76">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="77">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="78">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="PHYSICAL_CRITICAL" value="5" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="79">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="0" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="0" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="0" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="0" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="80">
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="0" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="0" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="60" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="0" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="0" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="81">
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="1" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="40" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="10.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
-		</modifiers>
-		<modifiers chance="18.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="15.0">
-			<add name="MAXHP" value="50" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="12.0">
-			<add name="MAXHP" value="30" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="6.0">
+		<modifiers chance="100.0">
 			<add name="MAXHP" value="60" bonus="true"/>
 			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
 			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="82">
-		<modifiers chance="17.5">
+		<modifiers chance="50.0">
 			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<add name="HEAL_BOOST" value="8" bonus="true"/>
@@ -3848,114 +1011,20 @@
 			<rate name="BOOST_CASTING_TIME" value="-9" bonus="true"/>
 			<rate name="ATTACK_SPEED" value="-19" bonus="true"/>
 		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="50.0">
 			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
 			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
 			<add name="HEAL_BOOST" value="8" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE_PENETRATION" value="19" bonus="true"/>
 		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="-9" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="HEAL_BOOST" value="8" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="18" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="-9" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
-			<add name="HEAL_BOOST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
-			<add name="HEAL_BOOST" value="6" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="17" bonus="true"/>
-			<rate name="BOOST_CASTING_TIME" value="-9" bonus="true"/>
-			<rate name="ATTACK_SPEED" value="-19" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
-			<add name="HEAL_BOOST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="1" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="-15" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="15" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="INVENTORY" id="83">
-		<modifiers chance="17.5">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="4" bonus="true"/>
-		</modifiers>
-		<modifiers chance="17.5">
+		<modifiers chance="100.0">
 			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
 			<add name="SILENCE_RESISTANCE_PENETRATION" value="12" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="11" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="3" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="10" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="1" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="9" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
-			<add name="PARALYZE_RESISTANCE_PENETRATION" value="2" bonus="true"/>
-		</modifiers>
-		<modifiers chance="8.12">
-			<add name="SILENCE_RESISTANCE_PENETRATION" value="8" bonus="true"/>
 			<add name="PARALYZE_RESISTANCE_PENETRATION" value="-8" bonus="true"/>
 		</modifiers>
 	</random_bonus>
@@ -22643,115 +19712,38 @@
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="POLISH" id="77">
-		<modifiers chance="20.0">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
 			<add name="PHYSICAL_CRITICAL" value="50" bonus="true"/>
 			<add name="PHYSICAL_ACCURACY" value="62" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="46" bonus="true"/>
-			<add name="PHYSICAL_ACCURACY" value="59" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
-			<add name="PHYSICAL_CRITICAL" value="46" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PHYSICAL_CRITICAL" value="50" bonus="true"/>
-			<add name="PHYSICAL_ACCURACY" value="59" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PVP_ATTACK_RATIO" value="7" bonus="true"/>
-			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="POLISH" id="78">
-		<modifiers chance="20.0">
+		<modifiers chance="100.0">
 			<add name="BOOST_MAGICAL_SKILL" value="70" bonus="true"/>
 			<add name="MAGICAL_CRITICAL" value="25" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="50" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="BOOST_MAGICAL_SKILL" value="70" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="23" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="46" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="BOOST_MAGICAL_SKILL" value="70" bonus="true"/>
-			<add name="MAGICAL_CRITICAL" value="23" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAGICAL_CRITICAL" value="25" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="46" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PVP_ATTACK_RATIO" value="7" bonus="true"/>
-			<add name="BOOST_MAGICAL_SKILL" value="70" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="POLISH" id="79">
-		<modifiers chance="20.0">
+		<modifiers chance="100.0">
 			<add name="PHYSICAL_DEFENSE" value="150" bonus="true"/>
 			<add name="MAXHP" value="340" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="50" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PHYSICAL_DEFENSE" value="150" bonus="true"/>
-			<add name="MAXHP" value="320" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="46" bonus="true"/>
-		</modifiers>
-		<modifiers chance="40.0">
-			<add name="MAXHP" value="340" bonus="true"/>
-			<add name="PHYSICAL_DEFENSE" value="140" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PVP_DEFEND_RATIO" value="24" bonus="true"/>
-			<add name="PHYSICAL_DEFENSE" value="150" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="POLISH" id="80">
-		<modifiers chance="20.0">
+		<modifiers chance="100.0">
 			<add name="MAGIC_SKILL_BOOST_RESIST" value="85" bonus="true"/>
 			<add name="MAXHP" value="340" bonus="true"/>
 			<add name="MAGICAL_RESIST" value="50" bonus="true"/>
 		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="85" bonus="true"/>
-			<add name="MAXHP" value="320" bonus="true"/>
-			<add name="MAGICAL_RESIST" value="46" bonus="true"/>
-		</modifiers>
-		<modifiers chance="40.0">
-			<add name="MAXHP" value="340" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="80" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PVP_DEFEND_RATIO" value="24" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="85" bonus="true"/>
-		</modifiers>
 	</random_bonus>
 	<random_bonus type="POLISH" id="81">
-		<modifiers chance="20.0">
+		<modifiers chance="100.0">
 			<add name="HEAL_BOOST" value="30" bonus="true"/>
 			<add name="MAXHP" value="340" bonus="true"/>
 			<add name="MAGICAL_ACCURACY" value="50" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="HEAL_BOOST" value="30" bonus="true"/>
-			<add name="MAXHP" value="320" bonus="true"/>
-			<add name="MAGICAL_ACCURACY" value="46" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="HEAL_BOOST" value="30" bonus="true"/>
-			<add name="MAXHP" value="320" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="MAGICAL_ACCURACY" value="50" bonus="true"/>
-			<add name="MAGIC_SKILL_BOOST_RESIST" value="80" bonus="true"/>
-		</modifiers>
-		<modifiers chance="20.0">
-			<add name="PHYSICAL_ACCURACY" value="62" bonus="true"/>
-			<add name="PHYSICAL_DEFENSE" value="140" bonus="true"/>
 		</modifiers>
 	</random_bonus>
 	<random_bonus type="POLISH" id="82">
