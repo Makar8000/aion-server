@@ -26279,16 +26279,10 @@
 		</items>
 	</decomposable>
 	<decomposable item_id="188052827"><!-- Dynatoum's Equipment Chest -->
-		<items chance="35.0">
-			<item id="188052828" /><!-- Dynatoum's Weapon Box -->
-		</items>
-		<items chance="55.0">
-			<item id="188052829" /><!-- Dynatoum's Armor Box -->
-		</items>
-		<items chance="3.0">
+		<items chance="30.0">
 			<item id="188052830" /><!-- Dynatoum's Brazen Weapon Box -->
 		</items>
-		<items chance="7.0">
+		<items chance="70.0">
 			<item id="188052831" /><!-- Dynatoum's Brazen Armor Box -->
 		</items>
 	</decomposable>
@@ -34589,576 +34583,210 @@
 			<item id="188053786" /><!-- Major Stigma Bundle -->
 		</items>
 	</decomposable>
-	<decomposable item_id="188053784"><!-- Stigma Bundle -->
+	<decomposable item_id="188053784" selectable="true"><!-- Stigma Bundle -->
 		<items>
 			<item id="140001109" /><!-- Crippling Cut -->
-		</items>
-		<items>
 			<item id="140001110" /><!-- Draining Blow -->
-		</items>
-		<items>
 			<item id="140001111" /><!-- Earthquake Wave -->
-		</items>
-		<items>
 			<item id="140001112" /><!-- Magical Defense -->
-		</items>
-		<items>
 			<item id="140001113" /><!-- Ankle Snare -->
-		</items>
-		<items>
 			<item id="140001114" /><!-- Siegebreaker -->
-		</items>
-		<items>
 			<item id="140001115" /><!-- Lockdown -->
-		</items>
-		<items>
 			<item id="140001116" /><!-- Dauntless Spirit -->
-		</items>
-		<items>
 			<item id="140001117" /><!-- Howl -->
-		</items>
-		<items>
 			<item id="140001126" /><!-- Barricade of Steel -->
-		</items>
-		<items>
 			<item id="140001127" /><!-- Incite Rage -->
-		</items>
-		<items>
 			<item id="140001128" /><!-- Divine Fury -->
-		</items>
-		<items>
 			<item id="140001129" /><!-- Holy Shield -->
-		</items>
-		<items>
 			<item id="140001130" /><!-- Punishing Thrust -->
-		</items>
-		<items>
 			<item id="140001131" /><!-- Punishment -->
-		</items>
-		<items>
 			<item id="140001132" /><!-- Aether Armor -->
-		</items>
-		<items>
 			<item id="140001133" /><!-- Inquisitor's Blow -->
-		</items>
-		<items>
 			<item id="140001142" /><!-- Deadly Abandon -->
-		</items>
-		<items>
 			<item id="140001143" /><!-- Oath of Accuracy -->
-		</items>
-		<items>
 			<item id="140001144" /><!-- Shadow Walk -->
-		</items>
-		<items>
 			<item id="140001145" /><!-- Shadowfall -->
-		</items>
-		<items>
 			<item id="140001146" /><!-- Sigil Strike -->
-		</items>
-		<items>
 			<item id="140001147" /><!-- Venomous Strike -->
-		</items>
-		<items>
 			<item id="140001148" /><!-- Eye of Wrath -->
-		</items>
-		<items>
 			<item id="140001149" /><!-- Rune Knife -->
-		</items>
-		<items>
 			<item id="140001150" /><!-- Seaching Strike -->
-		</items>
-		<items>
 			<item id="140001159" /><!-- Focused Shots -->
-		</items>
-		<items>
 			<item id="140001160" race="ELYOS" /><!-- Trap of Slowing -->
 			<item id="140001161" race="ASMODIANS" /><!-- Trap of Slowing -->
-		</items>
-		<items>
 			<item id="140001162" /><!-- Dilation Arrow -->
-		</items>
-		<items>
 			<item id="140001163" race="ELYOS" /><!-- Skybound Trap -->
 			<item id="140001164" race="ASMODIANS" /><!-- Skybound Trap -->
-		</items>
-		<items>
 			<item id="140001165" race="ELYOS" /><!-- Blazing Trap -->
 			<item id="140001166" race="ASMODIANS" /><!-- Blazing Trap -->
-		</items>
-		<items>
 			<item id="140001167" /><!-- Nature's Resolve -->
-		</items>
-		<items>
 			<item id="140001168" /><!-- Bow of Blessing -->
-		</items>
-		<items>
 			<item id="140001169" race="ELYOS" /><!-- Trap of Clairvoyance -->
 			<item id="140001170" race="ASMODIANS" /><!-- Trap of Clairvoyance -->
-		</items>
-		<items>
 			<item id="140001171" /><!-- Arrow Deluge -->
-		</items>
-		<items>
 			<item id="140001175" /><!-- Arcane Thunderbolt -->
-		</items>
-		<items>
 			<item id="140001179" /><!-- Elemental Ward -->
-		</items>
-		<items>
 			<item id="140001180" /><!-- Storm Strike -->
-		</items>
-		<items>
 			<item id="140001182" race="ELYOS" /><!-- Ice Sheet -->
 			<item id="140001183" race="ASMODIANS" /><!-- Ice Sheet -->
-		</items>
-		<items>
 			<item id="140001186" /><!-- Boon of Quickness -->
-		</items>
-		<items>
 			<item id="140001187" /><!-- Freeze -->
-		</items>
-		<items>
 			<item id="140001188" /><!-- Curse of Weakness -->
-		</items>
-		<items>
 			<item id="140001189" /><!-- Ice Harpoon -->
-		</items>
-		<items>
 			<item id="140001190" /><!-- Exchange Vitality -->
-		</items>
-		<items>
 			<item id="140001200" /><!-- Earthen Call -->
-		</items>
-		<items>
 			<item id="140001201" /><!-- Magic's Freedom -->
-		</items>
-		<items>
 			<item id="140001202" /><!-- Stone Scour -->
-		</items>
-		<items>
 			<item id="140001203" /><!-- Spirit Burn-to-Ashes -->
-		</items>
-		<items>
 			<item id="140001204" /><!-- Cyclone of Wrath -->
-		</items>
-		<items>
 			<item id="140001205" /><!-- Withering Gloom -->
-		</items>
-		<items>
 			<item id="140001206" /><!-- Spirit Wall of Protection -->
-		</items>
-		<items>
 			<item id="140001207" /><!-- Cloaking Word -->
-		</items>
-		<items>
 			<item id="140001208" /><!-- Enmity Swap -->
-		</items>
-		<items>
 			<item id="140001236" /><!-- Saving Grace -->
-		</items>
-		<items>
 			<item id="140001237" /><!-- Sacrifical Power -->
-		</items>
-		<items>
 			<item id="140001238" /><!-- Sympathetic Heal -->
-		</items>
-		<items>
 			<item id="140001239" /><!-- Blinding Light -->
-		</items>
-		<items>
 			<item id="140001240" /><!-- Retribution Lightning -->
-		</items>
-		<items>
 			<item id="140001241" /><!-- Power Sprint -->
-		</items>
-		<items>
 			<item id="140001242" /><!-- Reverse Condition -->
-		</items>
-		<items>
 			<item id="140001243" /><!-- Festering Wound -->
-		</items>
-		<items>
 			<item id="140001244" /><!-- Noble Grace -->
-		</items>
-		<items>
 			<item id="140001217" /><!-- Word of Inspiration -->
-		</items>
-		<items>
 			<item id="140001218" /><!-- Annihilation -->
-		</items>
-		<items>
 			<item id="140001219" /><!-- Word of Life -->
-		</items>
-		<items>
 			<item id="140001220" /><!-- Soul Lock -->
-		</items>
-		<items>
 			<item id="140001221" /><!-- Splash Swing -->
-		</items>
-		<items>
 			<item id="140001222" /><!-- Acceleration Cheer -->
-		</items>
-		<items>
 			<item id="140001223" /><!-- Leaping Flash -->
-		</items>
-		<items>
 			<item id="140001224" /><!-- Healing Conduit -->
-		</items>
-		<items>
 			<item id="140001225" /><!-- Rise -->
-		</items>
-		<items>
 			<item id="140001253" /><!-- Steady Fire -->
-		</items>
-		<items>
 			<item id="140001254" /><!-- Nature's Favor -->
-		</items>
-		<items>
 			<item id="140001255" /><!-- Frozen Blitz -->
-		</items>
-		<items>
 			<item id="140001256" /><!-- Sighting -->
-		</items>
-		<items>
 			<item id="140001257" /><!-- Power Grab -->
-		</items>
-		<items>
 			<item id="140001258" /><!-- Fiery Blast -->
-		</items>
-		<items>
 			<item id="140001259" /><!-- Shock and Awe -->
-		</items>
-		<items>
 			<item id="140001260" /><!-- Missle Guide -->
-		</items>
-		<items>
 			<item id="140001261" /><!-- Blazing Bombardment -->
-		</items>
-		<items>
 			<item id="140001270" /><!-- Particle Whip -->
-		</items>
-		<items>
 			<item id="140001271" /><!-- Drillbore -->
-		</items>
-		<items>
 			<item id="140001272" /><!-- Rip Slash -->
-		</items>
-		<items>
 			<item id="140001273" /><!-- Steel Storm -->
-		</items>
-		<items>
 			<item id="140001274" /><!-- Leeching Steel -->
-		</items>
-		<items>
 			<item id="140001275" /><!-- Ravager Cannon -->
-		</items>
-		<items>
 			<item id="140001276" /><!-- Life Support Trigger -->
-		</items>
-		<items>
 			<item id="140001277" /><!-- Aimbot Assist -->
-		</items>
-		<items>
 			<item id="140001278" /><!-- Aether Recharge -->
-		</items>
-		<items>
 			<item id="140001287" /><!-- Mvt. 2: Summer -->
-		</items>
-		<items>
 			<item id="140001288" /><!-- Stingin Note -->
-		</items>
-		<items>
 			<item id="140001289" /><!-- Hymn of Rejuvenation -->
-		</items>
-		<items>
 			<item id="140001290" /><!-- Freestyle -->
-		</items>
-		<items>
 			<item id="140001291" /><!-- Half-Stop -->
-		</items>
-		<items>
 			<item id="140001292" /><!-- Inspiration -->
-		</items>
-		<items>
 			<item id="140001293" /><!-- Mvt. 3: Autumn -->
-		</items>
-		<items>
 			<item id="140001294" /><!-- Resonant Hymn -->
-		</items>
-		<items>
 			<item id="140001295" /><!-- Combustible Cacophnoy -->
 		</items>
 	</decomposable>
-	<decomposable item_id="188053785"><!-- Greater Stigma Bundle -->
+	<decomposable item_id="188053785" selectable="true"><!-- Greater Stigma Bundle -->
 		<items>
 			<item id="140001103" /><!-- Sure Strike -->
-		</items>
-		<items>
 			<item id="140001104" /><!-- Spite Strike -->
-		</items>
-		<items>
 			<item id="140001105" /><!-- Sharp Strike -->
-		</items>
-		<items>
 			<item id="140001106" /><!-- Tendon Slice -->
-		</items>
-		<items>
 			<item id="140001107" /><!-- Exhausting Wave -->
-		</items>
-		<items>
 			<item id="140001108" /><!-- Severe Precision Cut -->
-		</items>
-		<items>
 			<item id="140001120" /><!-- Prayer of Resilience -->
-		</items>
-		<items>
 			<item id="140001121" /><!-- Magic Smash -->
-		</items>
-		<items>
 			<item id="140001122" /><!-- Prayer of Victory -->
-		</items>
-		<items>
 			<item id="140001123" /><!-- Divine Justice -->
-		</items>
-		<items>
 			<item id="140001124" /><!-- Punishing Wave -->
-		</items>
-		<items>
 			<item id="140001125" /><!-- Shield of Faith -->
-		</items>
-		<items>
 			<item id="140001136" /><!-- Apply Lethal Venom -->
-		</items>
-		<items>
 			<item id="140001137" /><!-- Agony Rune -->
-		</items>
-		<items>
 			<item id="140001138" /><!-- Sensory Boost -->
-		</items>
-		<items>
 			<item id="140001139" /><!-- Break Away -->
-		</items>
-		<items>
 			<item id="140001140" /><!-- Dash and Slash -->
-		</items>
-		<items>
 			<item id="140001141" /><!-- Lightning Slash -->
-		</items>
-		<items>
 			<item id="140001153" /><!-- Lethal Arrow -->
-		</items>
-		<items>
 			<item id="140001154" /><!-- Heart Shot -->
-		</items>
-		<items>
 			<item id="140001155" /><!-- Hunter's Might -->
-		</items>
-		<items>
 			<item id="140001156" /><!-- Gale Arrow -->
-		</items>
-		<items>
 			<item id="140001157" /><!-- Explosive Arrow -->
-		</items>
-		<items>
 			<item id="140001158" /><!-- Sharpen Arrows -->
-		</items>
-		<items>
 			<item id="140001174" /><!-- Sleeping Storm -->
-		</items>
-		<items>
 			<item id="140001176" /><!-- Summon Rock -->
-		</items>
-		<items>
 			<item id="140001177" /><!-- Flame Spray -->
-		</items>
-		<items>
 			<item id="140001178" /><!-- Illusion Storm -->
-		</items>
-		<items>
 			<item id="140001181" /><!-- Wind Cut Down -->
-		</items>
-		<items>
 			<item id="140001184" race="ELYOS" /><!-- Summon Whirlwind -->
 			<item id="140001185" race="ASMODIANS" /><!-- Summon Whirlwind -->
-		</items>
-		<items>
 			<item id="140001193" /><!-- Shackle of Vulnerability -->
-		</items>
-		<items>
 			<item id="140001194" /><!-- Magic Implosion -->
-		</items>
-		<items>
 			<item id="140001195" /><!-- Infernal Pain -->
-		</items>
-		<items>
 			<item id="140001196" /><!-- Spirit Ruinous Offensive -->
-		</items>
-		<items>
 			<item id="140001197" race="ELYOS" /><!-- Summon Cyclon Servant -->
 			<item id="140001198" race="ASMODIANS" /><!-- Summon Cyclon Servant -->
-		</items>
-		<items>
 			<item id="140001199" /><!-- Healing Spirit -->
-		</items>
-		<items>
 			<item id="140001228" /><!-- Enfeebling Burst -->
-		</items>
-		<items>
 			<item id="140001229" /><!-- Chain of Suffering -->
-		</items>
-		<items>
 			<item id="140001230" race="ELYOS" /><!-- Summon Noble Energy -->
 			<item id="140001231" race="ASMODIANS" /><!-- Summon Noble Energy -->
-		</items>
-		<items>
 			<item id="140001232" /><!-- Splendor of Rebirth -->
-		</items>
-		<items>
 			<item id="140001233" /><!-- Ripple of Purification -->
-		</items>
-		<items>
 			<item id="140001234" race="ELYOS" /><!-- Summon Healing Energy -->
 			<item id="140001235" race="ASMODIANS" /><!-- Summon Healing Energy -->
-		</items>
-		<items>
 			<item id="140001211" /><!-- Blessing of Stone -->
-		</items>
-		<items>
 			<item id="140001212" /><!-- Healing Burst -->
-		</items>
-		<items>
 			<item id="140001213" /><!-- Word of Protection -->
-		</items>
-		<items>
 			<item id="140001214" /><!-- Blessing of Wind -->
-		</items>
-		<items>
 			<item id="140001215" /><!-- Disorienting Blow -->
-		</items>
-		<items>
 			<item id="140001216" /><!-- Mountain Crash -->
-		</items>
-		<items>
 			<item id="140001247" /><!-- Hemorrhage Shot -->
-		</items>
-		<items>
 			<item id="140001248" /><!-- Pressurized Chamber -->
-		</items>
-		<items>
 			<item id="140001249" /><!-- Autoload -->
-		</items>
-		<items>
 			<item id="140001250" /><!-- Juggernaut Cannon -->
-		</items>
-		<items>
 			<item id="140001251" /><!-- Paralysis Cannon -->
-		</items>
-		<items>
 			<item id="140001252" /><!-- Stopping Power -->
-		</items>
-		<items>
 			<item id="140001264" /><!-- Aethercharged Steel -->
-		</items>
-		<items>
 			<item id="140001265" /><!-- Rain of Knuckles -->
-		</items>
-		<items>
 			<item id="140001266" /><!-- Debilating Blade -->
-		</items>
-		<items>
 			<item id="140001267" /><!-- Mobility Thrusters -->
-		</items>
-		<items>
 			<item id="140001268" /><!-- Trauma Plate Trigger -->
-		</items>
-		<items>
 			<item id="140001269" /><!-- Convulsion Beam -->
-		</items>
-		<items>
 			<item id="140001281" /><!-- Staggered Rest -->
-		</items>
-		<items>
 			<item id="140001282" /><!-- Paean of Pain -->
-		</items>
-		<items>
 			<item id="140001283" /><!-- Exultation -->
-		</items>
-		<items>
 			<item id="140001284" /><!-- Impassion -->
-		</items>
-		<items>
 			<item id="140001285" /><!-- Soothing Hymn -->
-		</items>
-		<items>
 			<item id="140001286" /><!-- Joyous Carol -->
 		</items>
 	</decomposable>
-	<decomposable item_id="188053786"><!-- Major Stigma Bundle -->
+	<decomposable item_id="188053786" selectable="true"><!-- Major Stigma Bundle -->
 		<items>
 			<item id="140001118" /><!-- Righteous Punishment -->
-		</items>
-		<items>
 			<item id="140001119" /><!-- Whirling Strike -->
-		</items>
-		<items>
 			<item id="140001134" /><!-- Empyrean Providence -->
-		</items>
-		<items>
 			<item id="140001135" /><!-- Shieldburst -->
-		</items>
-		<items>
 			<item id="140001151" /><!-- Quickening Doom -->
-		</items>
-		<items>
 			<item id="140001152" /><!-- Scoundrel's Bond -->
-		</items>
-		<items>
 			<item id="140001172" /><!-- Agonizing Arrow -->
-		</items>
-		<items>
 			<item id="140001173" /><!-- Lightning Arrow -->
-		</items>
-		<items>
 			<item id="140001191" /><!-- Wintry Armor -->
-		</items>
-		<items>
 			<item id="140001192" /><!-- Glacial Shard -->
-		</items>
-		<items>
 			<item id="140001209" /><!-- Infernal Blight -->
-		</items>
-		<items>
 			<item id="140001210" /><!-- Armor Spirit -->
-		</items>
-		<items>
 			<item id="140001245" /><!-- Call Lightning -->
-		</items>
-		<items>
 			<item id="140001246" /><!-- Benevolence -->
-		</items>
-		<items>
 			<item id="140001226" /><!-- Elemental Screen -->
-		</items>
-		<items>
 			<item id="140001227" /><!-- Numbling Blow -->
-		</items>
-		<items>
 			<item id="140001262" /><!-- Dazzling Fire -->
-		</items>
-		<items>
 			<item id="140001263" /><!-- Shellshock -->
-		</items>
-		<items>
 			<item id="140001279" /><!-- Meteor Strike -->
-		</items>
-		<items>
 			<item id="140001280" /><!-- Kinetic Bulwark -->
-		</items>
-		<items>
 			<item id="140001296" /><!-- Treble Cleave -->
-		</items>
-		<items>
 			<item id="140001297" /><!-- Chorus of Blessing -->
 		</items>
 	</decomposable>
