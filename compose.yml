@@ -1,0 +1,80 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: aion-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_ROOT_HOST: "%"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "0.0.0.0:3306:3306"      # MySQL Database
+      - "0.0.0.0:2106:2106"      # Login Server
+      - "0.0.0.0:9014:9014"      # Inter-process Communication
+      - "0.0.0.0:7777:7777"      # Game Server
+      - "0.0.0.0:10241:10241"    # Chat Server
+    volumes:
+      - aion-mysql-data:/var/lib/mysql
+      - ./docker/mysql/init:/docker-entrypoint-initdb.d:ro
+      - ./login-server/sql:/sql/login:ro
+      - ./game-server/sql:/sql/game:ro
+      - ./chat-server/sql:/sql/chat:ro
+    healthcheck:
+      test: ["CMD", "mysql", "-h127.0.0.1", "-uroot", "-p${DB_ROOT_PASSWORD}", "-e", "SELECT 1 FROM aion_ls.gameservers LIMIT 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+      start_period: 60s
+    restart: unless-stopped
+
+  loginserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        MODULE: login-server
+    container_name: aion-loginserver
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./login-server/config:/app/login-server/config:ro
+    network_mode: "service:mysql" 
+    restart: unless-stopped
+
+  gameserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        MODULE: game-server
+    container_name: aion-gameserver
+    depends_on:
+      mysql:
+        condition: service_healthy
+      loginserver:
+        condition: service_started
+    volumes:
+      - ./game-server/config:/app/game-server/config:ro
+    network_mode: "service:mysql"
+    restart: unless-stopped
+
+  chatserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        MODULE: chat-server
+    container_name: aion-chatserver
+    depends_on:
+      mysql:
+        condition: service_healthy
+      loginserver:
+        condition: service_started
+    volumes:
+      - ./chat-server/config:/app/chat-server/config:ro
+    network_mode: "service:mysql"
+    restart: unless-stopped
+
+volumes:
+  aion-mysql-data:
