@@ -31,6 +31,7 @@ import com.aionemu.gameserver.model.team.legion.LegionMember;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
 import com.aionemu.gameserver.model.templates.item.actions.EmotionLearnAction;
 import com.aionemu.gameserver.services.BrokerService;
+import com.aionemu.gameserver.services.CubeExpandService;
 import com.aionemu.gameserver.services.HousingService;
 import com.aionemu.gameserver.services.LegionService;
 import com.aionemu.gameserver.services.PunishmentService.PunishmentType;
@@ -225,6 +226,11 @@ public class PlayerService {
 			}
 		}
 		newPlayer.setMailbox(new Mailbox(newPlayer));
+
+		// Expand cube to max
+		while (CubeExpandService.canExpand(newPlayer)) {
+			CubeExpandService.npcExpand(newPlayer);
+		}		
 
 		// Mark inventory and equipment as UPDATE_REQUIRED to be saved during character creation
 		newPlayer.getInventory().setPersistentState(PersistentState.UPDATE_REQUIRED);
