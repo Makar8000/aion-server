@@ -162,7 +162,7 @@ public class EnchantService {
 			}
 		}
 
-		boolean result = Rnd.chance() < successChance;
+		boolean result = true;
 
 		if (player.hasAccess(AdminConfig.ENCHANT_INFO))
 			PacketSendUtility.sendMessage(player, (result ? "Success" : "Fail") + " (success chance:" + successChance + "%)");
@@ -392,7 +392,7 @@ public class EnchantService {
 			player.subtractSupplements(supplementUseCount, supplementTemplate.getTemplateId());
 		}
 
-		boolean result = Rnd.chance() < successChance;
+		boolean result = true;
 
 		// For test purpose. To use by administrator
 		if (player.hasAccess(AdminConfig.ENCHANT_INFO))

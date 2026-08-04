@@ -592,8 +592,9 @@ public class PlayerController extends CreatureController<Player> {
 		if (HTMLConfig.ENABLE_GUIDES && player.isSpawned())
 			HTMLService.sendGuideHtml(player, minNewLevel, newLevel);
 		SkillLearnService.learnNewSkills(player, minNewLevel, newLevel);
-		BonusPackService.getInstance().addPlayerCustomReward(player);
-		FactionPackService.getInstance().addPlayerCustomReward(player);
+		// Disable bonus pack service
+		// BonusPackService.getInstance().addPlayerCustomReward(player);
+		// FactionPackService.getInstance().addPlayerCustomReward(player);
 		if (CustomConfig.ENABLE_STARTER_KIT)
 			StarterKitService.getInstance().onLevelUp(player, minNewLevel, newLevel);
 	}

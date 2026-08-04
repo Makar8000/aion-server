@@ -1,6 +1,5 @@
 package com.aionemu.gameserver.services.item;
 
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
 import com.aionemu.gameserver.model.TaskId;
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -41,9 +40,9 @@ public class ItemActionService {
 			public void run() {
 				player.getObserveController().removeObserver(observer);
 				PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), itemId, 0, 10, 0), true);
-				item.setOptionalSockets(Rnd.get(0, item.getItemTemplate().getOptionSlotBonus()));
+				item.setOptionalSockets(item.getItemTemplate().getOptionSlotBonus());
 				item.setBonusStats(TuningAction.getRandomStatBonusIdFor(item), true);
-				item.setEnchantBonus(Rnd.get(0, item.getItemTemplate().getMaxEnchantBonus()));
+				item.setEnchantBonus(item.getItemTemplate().getMaxEnchantBonus());
 				item.setTuneCount(item.getTuneCount() + 1); // not tuned have count = -1
 				player.getInventory().setPersistentState(PersistentState.UPDATE_REQUIRED);
 				PacketSendUtility.sendPacket(player, new SM_INVENTORY_UPDATE_ITEM(player, item));

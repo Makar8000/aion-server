@@ -5,7 +5,6 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.TaskId;
@@ -97,8 +96,8 @@ public class TuningAction extends AbstractItemAction {
 			} else {
 				targetItem.setTuneCount(targetItem.getTuneCount() + 1);
 				player.getInventory().setPersistentState(Persistable.PersistentState.UPDATE_REQUIRED);
-				newOptionalSockets = Rnd.get(0, targetItem.getItemTemplate().getOptionSlotBonus());
-				newEnchantBonus = Rnd.get(0, targetItem.getItemTemplate().getMaxEnchantBonus());
+				newOptionalSockets = targetItem.getItemTemplate().getOptionSlotBonus();
+				newEnchantBonus = targetItem.getItemTemplate().getMaxEnchantBonus();
 			}
 			newStatBonusId = getRandomStatBonusIdFor(targetItem);
 			PendingTuneResult result = new PendingTuneResult(newOptionalSockets, newEnchantBonus, newStatBonusId, shouldNotReduceTuneCount);

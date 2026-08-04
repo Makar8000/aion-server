@@ -153,10 +153,6 @@ public class TamperingAction extends AbstractItemAction {
 	}
 
 	private float calculateChance(Player player, Item item) {
-		if (item.getTempering() == 0) // +0 -> +1 is always safe
-			return 100;
-		if (item.getItemTemplate().getItemGroup() == ItemGroup.PLUME)
-			return Math.max(25, 100 - (item.getTempering() * 10));
-		return Rates.get(player, RatesConfig.TEMPERING_CHANCES);
+		return 100;
 	}
 }

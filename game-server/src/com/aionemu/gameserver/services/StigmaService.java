@@ -367,7 +367,7 @@ public class StigmaService {
 		if (!stigma.isStigmaChargeable())
 			return;
 
-		final boolean isSuccess = Rnd.chance() < Math.max(25, 100 - (stigma.getEnchantLevel() * 10));
+		final boolean isSuccess = true;
 
 		final int parentItemId = stigma.getItemId();
 		final int parentObjectId = stigma.getObjectId();
