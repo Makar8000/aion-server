@@ -59,7 +59,11 @@ public class _2900NoEscapingDestiny extends AbstractQuestHandler {
 					switch (dialogActionId) {
 						case QUEST_SELECT:
 							if (var == 0) {
-								return sendQuestDialog(env, 1011);
+								qs.setQuestVar(10);
+								updateQuestStatus(env);
+								defaultCloseDialog(env, 10, 10, true, false); // reward
+								TeleportService.teleportTo(player, 120010000, 1294.8f, 1213.8f, 214.34f, (byte) 30, TeleportAnimation.FADE_OUT_BEAM);
+								return true;
 							}
 							return false;
 						case SETPRO1:
