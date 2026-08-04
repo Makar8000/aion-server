@@ -56,11 +56,12 @@ public class _2009ACeremonyinPandaemonium extends AbstractQuestHandler {
 			if (targetId == 203550) {
 				switch (env.getDialogActionId()) {
 					case QUEST_SELECT:
-						if (var == 0) {
-							return sendQuestDialog(env, 1011);
-						}
-						if (var == 1) {
-							return sendQuestDialog(env, 1013);
+						if (var <= 1) {
+							qs.setQuestVar(1);
+							updateQuestStatus(env);
+							PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 0));
+							TeleportService.teleportTo(player, 120010000, 1615.41f, 1397.81f, 193.127f, (byte) 61, TeleportAnimation.FADE_OUT_BEAM);
+							return true;
 						}
 						return false;
 					case SETPRO1:
