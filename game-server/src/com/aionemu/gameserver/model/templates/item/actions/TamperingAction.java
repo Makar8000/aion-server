@@ -131,7 +131,7 @@ public class TamperingAction extends AbstractItemAction {
 		if (item.getItemTemplate().getItemGroup() == ItemGroup.PLUME) {
 			if (item.getTempering() > 4) {
 				int rndBonusValue = item.getRndPlumeBonusValue();
-				for (int i = oldTemperingLevel; i < item.getTempering(); i++) // Random chance to get 4-7 ATK/20-32 MBoost
+				for (int i = Math.max(oldTemperingLevel, 4); i < item.getTempering(); i++) // Random chance to get 4-7 ATK/20-32 MBoost
 					rndBonusValue += item.getItemTemplate().getTemperingName().equals("TSHIRT_PHYSICAL") ? Rnd.get(0, 3) : Rnd.get(0, 12);
 				item.setRndPlumeBonusValue(rndBonusValue);
 			} else {
