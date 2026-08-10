@@ -32,6 +32,10 @@ public class PacketSendUtility {
 		sendPacket(player, new SM_MESSAGE(0, null, msg, chatType));
 	}
 
+	public static void sendMessageFromNpc(Player player, int senderObjectId, String senderName, String msg) {
+		sendPacket(player, new SM_MESSAGE(senderObjectId, senderName, msg, ChatType.NPC));
+	}
+
 	/**
 	 * Lets the player say a client message to himself. He (but no one else) will see the message in /s chat and in a speech bubble above his head.
 	 */
