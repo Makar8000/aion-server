@@ -174,7 +174,7 @@ public class GeneralInstanceHandler implements InstanceHandler {
 			String name = ai.getAttacker().getName();
 			Creature master = ai.getAttacker().getMaster();
 			if (!master.equals(ai.getAttacker()))
-				name = master.getName() + "'s " + ai.getAttacker().getObjectTemplate().getL10n();
+				name = master.getName() + "'s " + ai.getAttacker().getName();
 			sb.append("\n\t" + name + ": " + String.format("%,d", ai.getDamage()));
 		});
 
@@ -190,7 +190,7 @@ public class GeneralInstanceHandler implements InstanceHandler {
 			String name = ai.getAttacker().getName();
 			Creature master = ai.getAttacker().getMaster();
 			if (!master.equals(ai.getAttacker()))
-				name = master.getName() + "'s " + ai.getAttacker().getObjectTemplate().getL10n();
+				name = master.getName() + "'s " + ai.getAttacker().getName();
 			sb.append("\n\t" + name + ": " + String.format("%,d", ai.getHate()));
 		});
 
