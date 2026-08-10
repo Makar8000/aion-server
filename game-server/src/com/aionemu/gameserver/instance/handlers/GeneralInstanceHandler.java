@@ -1,10 +1,13 @@
 package com.aionemu.gameserver.instance.handlers;
 
 import java.util.stream.Collectors;
+import java.util.Comparator;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.aionemu.gameserver.controllers.attack.AggroInfo;
+import com.aionemu.gameserver.controllers.attack.DamageInfo;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.*;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -141,14 +144,20 @@ public class GeneralInstanceHandler implements InstanceHandler {
 
 	@Override
 	public void onDespawn(Npc npc) {
-		if (npc.getPosition().isInstanceMap() && isBoss(npc) && !npc.isDead())
+		if (npc.getPosition().isInstanceMap() && isBoss(npc) && !npc.isDead()) {
 			logNpcWithReason(npc, "despawned without dying.");
+			logAggroInfo(npc);
+			logDamageInfo(npc);
+		}
 	}
 
 	@Override
 	public void onDie(Npc npc) {
-		if (npc.getPosition().isInstanceMap() && isBoss(npc))
+		if (npc.getPosition().isInstanceMap() && isBoss(npc)) {
 			logNpcWithReason(npc, "was killed.");
+			logAggroInfo(npc);
+			logDamageInfo(npc);
+		}
 	}
 
 	public void logNpcWithReason(Npc npc, String reason) {
@@ -157,6 +166,38 @@ public class GeneralInstanceHandler implements InstanceHandler {
 				npc.getNpcId(), reason,
 				instance.getPlayersInside().stream().map(p -> String.format("%s (ID:%d)", p.getName(), p.getObjectId())).collect(Collectors.joining(", ")));
 		}
+	}
+
+	public void logDamageInfo(Npc npc) {
+		StringBuilder sb = new StringBuilder("Damage Info");
+		npc.getAggroList().getFinalDamageList().getCreatureDamages().stream().sorted(Comparator.comparingInt((DamageInfo<Creature> ai) -> ai.getDamage()).reversed()).forEach(ai -> {
+			String name = ai.getAttacker().getName();
+			Creature master = ai.getAttacker().getMaster();
+			if (!master.equals(ai.getAttacker()))
+				name = master.getName() + "'s " + ai.getAttacker().getObjectTemplate().getL10n();
+			sb.append("\n\t" + name + ": " + String.format("%,d", ai.getDamage()));
+		});
+
+		String output = sb.toString();
+		npc.getAggroList().getFinalDamageList().getCreatureDamages().stream().filter(ai -> ai.getAttacker() instanceof Player).forEach(ai -> {
+			PacketSendUtility.sendMessageFromNpc((Player) ai.getAttacker(), npc.getObjectId(), npc.getName(), output);
+		});
+	}
+
+	public void logAggroInfo(Npc npc) {
+		StringBuilder sb = new StringBuilder("Aggro Info");
+		npc.getAggroList().stream().sorted(Comparator.comparingInt((AggroInfo ai) -> ai.getHate()).reversed()).forEach(ai -> {
+			String name = ai.getAttacker().getName();
+			Creature master = ai.getAttacker().getMaster();
+			if (!master.equals(ai.getAttacker()))
+				name = master.getName() + "'s " + ai.getAttacker().getObjectTemplate().getL10n();
+			sb.append("\n\t" + name + ": " + String.format("%,d", ai.getHate()));
+		});
+
+		String output = sb.toString();
+		npc.getAggroList().getFinalDamageList().getCreatureDamages().stream().filter(ai -> ai.getAttacker() instanceof Player).forEach(ai -> {
+			PacketSendUtility.sendMessageFromNpc((Player) ai.getAttacker(), npc.getObjectId(), npc.getName(), output);
+		});
 	}
 
 	public boolean isBoss(Npc npc) {
