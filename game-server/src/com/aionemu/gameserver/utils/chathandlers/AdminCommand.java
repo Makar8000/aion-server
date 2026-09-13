@@ -13,7 +13,7 @@ import com.aionemu.gameserver.services.CommandsAccessService;
 public abstract class AdminCommand extends ChatCommand {
 
 	private static final Logger log = LoggerFactory.getLogger("ADMINAUDIT_LOG");
-	public final static String PREFIX = "//";
+	public final static String PREFIX = ".";
 
 	// only for backwards compatibility TODO: remove when all commands are updated
 	public AdminCommand(String alias) {
